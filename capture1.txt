@@ -1,0 +1,646 @@
+00:35:44.294070 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has d-69-91-181-157.dhcp4.washington.edu tell d-69-91-181-157.dhcp4.washington.edu, length 42
+00:35:44.602696 IP (tos 0xc0, ttl 1, id 52863, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.253: igmp query v2 [max resp time 10] [gaddr 224.0.0.253]
+00:35:44.805992 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has d-69-91-131-194.dhcp4.washington.edu tell d-69-91-131-194.dhcp4.washington.edu, length 42
+00:35:44.903916 IP (tos 0x0, ttl 255, id 39698, offset 0, flags [none], proto UDP (17), length 72)
+    d-69-91-181-31.dhcp4.washington.edu.50875 > dns1.cac.washington.edu.domain: 52107+ PTR? 157.181.91.69.in-addr.arpa. (44)
+00:35:44.914745 IP (tos 0x0, ttl 59, id 156, offset 0, flags [none], proto UDP (17), length 270)
+    dns1.cac.washington.edu.domain > d-69-91-181-31.dhcp4.washington.edu.50875: 52107* 1/3/4 157.181.91.69.in-addr.arpa. PTR D-69-91-181-157.dhcp4.washington.edu. (242)
+00:35:44.915751 IP (tos 0x0, ttl 255, id 46860, offset 0, flags [none], proto UDP (17), length 72)
+    d-69-91-181-31.dhcp4.washington.edu.56982 > dns1.cac.washington.edu.domain: 25328+ PTR? 194.131.91.69.in-addr.arpa. (44)
+00:35:44.921346 IP (tos 0x0, ttl 59, id 157, offset 0, flags [none], proto UDP (17), length 270)
+    dns1.cac.washington.edu.domain > d-69-91-181-31.dhcp4.washington.edu.56982: 25328* 1/3/4 194.131.91.69.in-addr.arpa. PTR D-69-91-131-194.dhcp4.washington.edu. (242)
+00:35:45.627372 IP (tos 0xc0, ttl 1, id 62854, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.253: igmp query v2 [max resp time 10] [gaddr 224.0.0.253]
+00:35:46.034322 IP (tos 0xc0, ttl 1, id 1366, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:35:46.035020 IP (tos 0xc0, ttl 1, id 1396, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:35:49.824492 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has d-128-95-62-123.dhcp4.washington.edu tell d-128-95-62-123.dhcp4.washington.edu, length 42
+00:35:56.172298 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has d-128-95-134-57.dhcp4.washington.edu tell d-128-95-134-57.dhcp4.washington.edu, length 42
+00:35:56.365123 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has ae3--2888.uwar-atg-1.infra.washington.edu (00:00:5e:00:01:05 (oui Unknown)) tell d-69-91-181-31.dhcp4.washington.edu, length 28
+00:35:56.371528 ARP, Ethernet (len 6), IPv4 (len 4), Reply ae3--2888.uwar-atg-1.infra.washington.edu is-at 00:00:5e:00:01:05 (oui Unknown), length 42
+00:35:56.371566 IP (tos 0x0, ttl 64, id 65165, offset 0, flags [DF], proto TCP (6), length 93)
+    d-69-91-181-31.dhcp4.washington.edu.54453 > edge-star-shv-01-pao1.facebook.com.https: Flags [P.], cksum 0x94ea (correct), seq 3362925227:3362925268, ack 2281908712, win 8192, options [nop,nop,TS val 205050596 ecr 2536322213], length 41
+00:35:56.769018 IP (tos 0x0, ttl 64, id 4756, offset 0, flags [DF], proto TCP (6), length 701)
+    d-69-91-181-31.dhcp4.washington.edu.54453 > edge-star-shv-01-pao1.facebook.com.https: Flags [P.], cksum 0xe684 (correct), seq 4294966688:41, ack 1, win 8192, options [nop,nop,TS val 205050999 ecr 2536322213], length 649
+00:35:56.846153 IP (tos 0x0, ttl 85, id 8214, offset 0, flags [DF], proto TCP (6), length 52)
+    edge-star-shv-01-pao1.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54453: Flags [.], cksum 0x2335 (correct), ack 41, win 106, options [nop,nop,TS val 2536438547 ecr 205050999], length 0
+00:35:56.847429 IP (tos 0x0, ttl 85, id 8215, offset 0, flags [DF], proto TCP (6), length 93)
+    edge-star-shv-01-pao1.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54453: Flags [P.], cksum 0x70e9 (correct), seq 1:42, ack 41, win 106, options [nop,nop,TS val 2536438547 ecr 205050999], length 41
+00:35:56.847490 IP (tos 0x0, ttl 64, id 3972, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54453 > edge-star-shv-01-pao1.facebook.com.https: Flags [.], cksum 0x032b (correct), ack 42, win 8189, options [nop,nop,TS val 205051077 ecr 2536438547], length 0
+00:35:56.910535 IP (tos 0x0, ttl 85, id 8216, offset 0, flags [DF], proto TCP (6), length 1426)
+    edge-star-shv-01-pao1.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54453: Flags [.], cksum 0x35c4 (correct), seq 42:1416, ack 41, win 106, options [nop,nop,TS val 2536438612 ecr 205051077], length 1374
+00:35:56.911575 IP (tos 0x0, ttl 85, id 8217, offset 0, flags [DF], proto TCP (6), length 297)
+    edge-star-shv-01-pao1.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54453: Flags [P.], cksum 0x4b76 (correct), seq 1416:1661, ack 41, win 106, options [nop,nop,TS val 2536438612 ecr 205051077], length 245
+00:35:56.911643 IP (tos 0x0, ttl 64, id 35570, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54453 > edge-star-shv-01-pao1.facebook.com.https: Flags [.], cksum 0xfc64 (correct), ack 1661, win 8176, options [nop,nop,TS val 205051140 ecr 2536438612], length 0
+00:35:56.914744 IP (tos 0x0, ttl 85, id 8218, offset 0, flags [DF], proto TCP (6), length 1163)
+    edge-star-shv-01-pao1.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54453: Flags [P.], cksum 0x5eff (correct), seq 1661:2772, ack 41, win 106, options [nop,nop,TS val 2536438612 ecr 205051077], length 1111
+00:35:56.914748 IP (tos 0x0, ttl 85, id 8219, offset 0, flags [DF], proto TCP (6), length 99)
+    edge-star-shv-01-pao1.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54453: Flags [P.], cksum 0x7769 (correct), seq 2772:2819, ack 41, win 106, options [nop,nop,TS val 2536438612 ecr 205051077], length 47
+00:35:56.914815 IP (tos 0x0, ttl 64, id 3042, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54453 > edge-star-shv-01-pao1.facebook.com.https: Flags [.], cksum 0xf840 (correct), ack 2772, win 8122, options [nop,nop,TS val 205051143 ecr 2536438612], length 0
+00:35:56.914816 IP (tos 0x0, ttl 64, id 18583, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54453 > edge-star-shv-01-pao1.facebook.com.https: Flags [.], cksum 0xf814 (correct), ack 2819, win 8119, options [nop,nop,TS val 205051143 ecr 2536438612], length 0
+00:35:56.937575 IP (tos 0x0, ttl 255, id 12172, offset 0, flags [none], proto UDP (17), length 72)
+    d-69-91-181-31.dhcp4.washington.edu.62398 > dns1.cac.washington.edu.domain: 11658+ PTR? 57.134.95.128.in-addr.arpa. (44)
+00:35:56.977305 IP (tos 0x0, ttl 59, id 158, offset 0, flags [none], proto UDP (17), length 270)
+    dns1.cac.washington.edu.domain > d-69-91-181-31.dhcp4.washington.edu.62398: 11658* 1/3/4 57.134.95.128.in-addr.arpa. PTR D-128-95-134-57.dhcp4.washington.edu. (242)
+00:35:57.921695 IP (tos 0x0, ttl 81, id 57808, offset 0, flags [DF], proto TCP (6), length 533)
+    channel-proxy-shv-04-frc3.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54443: Flags [P.], cksum 0x00f8 (correct), seq 3723723256:3723723737, ack 3713316169, win 193, options [nop,nop,TS val 1934531847 ecr 205002001], length 481
+00:35:57.921791 IP (tos 0x0, ttl 64, id 38873, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54443 > channel-proxy-shv-04-frc3.facebook.com.https: Flags [.], cksum 0x8300 (correct), ack 481, win 8161, options [nop,nop,TS val 205052147 ecr 1934531847], length 0
+00:35:57.926766 IP (tos 0x0, ttl 64, id 21658, offset 0, flags [DF], proto TCP (6), length 646)
+    d-69-91-181-31.dhcp4.washington.edu.54443 > channel-proxy-shv-04-frc3.facebook.com.https: Flags [P.], cksum 0xa56a (correct), seq 1:595, ack 481, win 8192, options [nop,nop,TS val 205052152 ecr 1934531847], length 594
+00:35:58.074770 IP (tos 0x0, ttl 81, id 57809, offset 0, flags [DF], proto TCP (6), length 52)
+    channel-proxy-shv-04-frc3.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54443: Flags [.], cksum 0x9ebf (correct), ack 595, win 204, options [nop,nop,TS val 1934532102 ecr 205052152], length 0
+00:35:58.530517 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has d-128-95-62-123.dhcp4.washington.edu tell d-128-95-62-123.dhcp4.washington.edu, length 42
+00:35:58.939936 IP (tos 0x0, ttl 81, id 33213, offset 0, flags [DF], proto TCP (6), length 153)
+    channel-proxy-shv-04-frc3.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54442: Flags [P.], cksum 0xbbb3 (correct), seq 1608803488:1608803589, ack 3184838696, win 186, options [nop,nop,TS val 2708858244 ecr 205003108], length 101
+00:35:58.940009 IP (tos 0x0, ttl 64, id 17621, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54442 > channel-proxy-shv-04-frc3.facebook.com.https: Flags [.], cksum 0xb1d4 (correct), ack 101, win 8185, options [nop,nop,TS val 205053160 ecr 2708858244], length 0
+00:35:58.943981 IP (tos 0x0, ttl 64, id 36444, offset 0, flags [DF], proto TCP (6), length 1321)
+    d-69-91-181-31.dhcp4.washington.edu.54442 > channel-proxy-shv-04-frc3.facebook.com.https: Flags [P.], cksum 0xfa1e (correct), seq 1:1270, ack 101, win 8192, options [nop,nop,TS val 205053163 ecr 2708858244], length 1269
+00:35:59.019287 IP (tos 0x0, ttl 81, id 33214, offset 0, flags [DF], proto TCP (6), length 52)
+    channel-proxy-shv-04-frc3.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54442: Flags [.], cksum 0xcb6c (correct), ack 1270, win 197, options [nop,nop,TS val 2708858408 ecr 205053163], length 0
+00:35:59.020070 IP (tos 0x0, ttl 81, id 33215, offset 0, flags [DF], proto TCP (6), length 308)
+    channel-proxy-shv-04-frc3.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54442: Flags [.], cksum 0x7f8d (correct), seq 101:357, ack 1270, win 197, options [nop,nop,TS val 2708858409 ecr 205053163], length 256
+00:35:59.020073 IP (tos 0x0, ttl 81, id 33216, offset 0, flags [DF], proto TCP (6), length 233)
+    channel-proxy-shv-04-frc3.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54442: Flags [P.], cksum 0xa756 (correct), seq 357:538, ack 1270, win 197, options [nop,nop,TS val 2708858409 ecr 205053163], length 181
+00:35:59.020074 IP (tos 0x0, ttl 81, id 33217, offset 0, flags [DF], proto TCP (6), length 137)
+    channel-proxy-shv-04-frc3.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54442: Flags [P.], cksum 0x52ed (correct), seq 538:623, ack 1270, win 197, options [nop,nop,TS val 2708858409 ecr 205053163], length 85
+00:35:59.020120 IP (tos 0x0, ttl 64, id 57851, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54442 > channel-proxy-shv-04-frc3.facebook.com.https: Flags [.], cksum 0xaa4c (correct), ack 538, win 8164, options [nop,nop,TS val 205053238 ecr 2708858409], length 0
+00:35:59.020120 IP (tos 0x0, ttl 64, id 39225, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54442 > channel-proxy-shv-04-frc3.facebook.com.https: Flags [.], cksum 0xa9fc (correct), ack 623, win 8159, options [nop,nop,TS val 205053238 ecr 2708858409], length 0
+00:35:59.347860 IP (tos 0xc0, ttl 1, id 47064, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:35:59.348083 IP (tos 0xc0, ttl 1, id 47098, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:36:00.293482 IP (tos 0x0, ttl 64, id 1730, offset 0, flags [DF], proto TCP (6), length 96)
+    d-69-91-181-31.dhcp4.washington.edu.54420 > pe-in-f109.1e100.net.imaps: Flags [P.], cksum 0xa63f (correct), seq 845208080:845208124, ack 1806100269, win 8192, options [nop,nop,TS val 205054508 ecr 881030926], length 44
+00:36:00.296428 IP (tos 0x0, ttl 255, id 62846, offset 0, flags [none], proto UDP (17), length 62)
+    d-69-91-181-31.dhcp4.washington.edu.61936 > dns1.cac.washington.edu.domain: 57484+ A? mail.comcast.net. (34)
+00:36:00.317730 IP (tos 0x0, ttl 44, id 539, offset 0, flags [none], proto TCP (6), length 52)
+    pe-in-f109.1e100.net.imaps > d-69-91-181-31.dhcp4.washington.edu.54420: Flags [.], cksum 0x1511 (correct), ack 44, win 358, options [nop,nop,TS val 881241103 ecr 205054508], length 0
+00:36:00.497495 IP (tos 0x0, ttl 44, id 540, offset 0, flags [none], proto TCP (6), length 273)
+    pe-in-f109.1e100.net.imaps > d-69-91-181-31.dhcp4.washington.edu.54420: Flags [P.], cksum 0x356f (correct), seq 1:222, ack 44, win 358, options [nop,nop,TS val 881241283 ecr 205054508], length 221
+00:36:00.497502 IP (tos 0x0, ttl 44, id 541, offset 0, flags [none], proto TCP (6), length 365)
+    pe-in-f109.1e100.net.imaps > d-69-91-181-31.dhcp4.washington.edu.54420: Flags [P.], cksum 0x8402 (correct), seq 222:535, ack 44, win 358, options [nop,nop,TS val 881241284 ecr 205054508], length 313
+00:36:00.497606 IP (tos 0x0, ttl 64, id 38892, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54420 > pe-in-f109.1e100.net.imaps: Flags [.], cksum 0xf429 (correct), ack 222, win 8178, options [nop,nop,TS val 205054710 ecr 881241283], length 0
+00:36:00.497606 IP (tos 0x0, ttl 64, id 39776, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54420 > pe-in-f109.1e100.net.imaps: Flags [.], cksum 0xf303 (correct), ack 535, win 8158, options [nop,nop,TS val 205054710 ecr 881241284], length 0
+00:36:00.498977 IP (tos 0x0, ttl 64, id 47959, offset 0, flags [DF], proto TCP (6), length 96)
+    d-69-91-181-31.dhcp4.washington.edu.54420 > pe-in-f109.1e100.net.imaps: Flags [P.], cksum 0x03e9 (correct), seq 44:88, ack 535, win 8192, options [nop,nop,TS val 205054711 ecr 881241284], length 44
+00:36:00.515463 IP (tos 0x0, ttl 44, id 542, offset 0, flags [none], proto TCP (6), length 52)
+    pe-in-f109.1e100.net.imaps > d-69-91-181-31.dhcp4.washington.edu.54420: Flags [.], cksum 0x113d (correct), ack 88, win 358, options [nop,nop,TS val 881241302 ecr 205054711], length 0
+00:36:00.986711 IP (tos 0xc0, ttl 1, id 3159, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:36:01.131484 IP (tos 0x0, ttl 44, id 545, offset 0, flags [none], proto TCP (6), length 561)
+    pe-in-f109.1e100.net.imaps > d-69-91-181-31.dhcp4.washington.edu.54420: Flags [P.], cksum 0x0b7e (correct), seq 535:1044, ack 88, win 358, options [nop,nop,TS val 881241916 ecr 205054711], length 509
+00:36:01.131602 IP (tos 0x0, ttl 64, id 11932, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54420 > pe-in-f109.1e100.net.imaps: Flags [.], cksum 0xebea (correct), ack 1044, win 8160, options [nop,nop,TS val 205055340 ecr 881241916], length 0
+00:36:01.149137 IP (tos 0x0, ttl 64, id 45445, offset 0, flags [DF], proto TCP (6), length 83)
+    d-69-91-181-31.dhcp4.washington.edu.54419 > pe-in-f108.1e100.net.imaps: Flags [P.], cksum 0x931e (correct), seq 3875769960:3875769991, ack 1781719923, win 8192, options [nop,nop,TS val 205055357 ecr 918713798], length 31
+00:36:01.159518 IP (tos 0x0, ttl 44, id 52710, offset 0, flags [none], proto TCP (6), length 52)
+    pe-in-f108.1e100.net.imaps > d-69-91-181-31.dhcp4.washington.edu.54419: Flags [.], cksum 0xc8f1 (correct), ack 31, win 366, options [nop,nop,TS val 919178964 ecr 205055357], length 0
+00:36:01.298851 IP (tos 0x0, ttl 255, id 5711, offset 0, flags [none], proto UDP (17), length 62)
+    d-69-91-181-31.dhcp4.washington.edu.61936 > dns1.cac.washington.edu.domain: 57484+ A? mail.comcast.net. (34)
+00:36:01.351951 IP (tos 0x0, ttl 44, id 52711, offset 0, flags [none], proto TCP (6), length 115)
+    pe-in-f108.1e100.net.imaps > d-69-91-181-31.dhcp4.washington.edu.54419: Flags [P.], cksum 0x6130 (correct), seq 1:64, ack 31, win 366, options [nop,nop,TS val 919179143 ecr 205055357], length 63
+00:36:01.352056 IP (tos 0x0, ttl 64, id 53091, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54419 > pe-in-f108.1e100.net.imaps: Flags [.], cksum 0xa8a9 (correct), ack 64, win 8188, options [nop,nop,TS val 205055557 ecr 919179143], length 0
+00:36:01.352892 IP (tos 0x0, ttl 64, id 50348, offset 0, flags [DF], proto TCP (6), length 143)
+    d-69-91-181-31.dhcp4.washington.edu.54419 > pe-in-f108.1e100.net.imaps: Flags [P.], cksum 0xdec1 (correct), seq 31:122, ack 64, win 8192, options [nop,nop,TS val 205055557 ecr 919179143], length 91
+00:36:01.400483 IP (tos 0xc0, ttl 1, id 7226, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:36:01.466760 IP (tos 0x0, ttl 44, id 52712, offset 0, flags [none], proto TCP (6), length 52)
+    pe-in-f108.1e100.net.imaps > d-69-91-181-31.dhcp4.washington.edu.54419: Flags [.], cksum 0xc65d (correct), ack 122, win 366, options [nop,nop,TS val 919179270 ecr 205055557], length 0
+00:36:01.928082 IP (tos 0x0, ttl 44, id 52714, offset 0, flags [none], proto TCP (6), length 168)
+    pe-in-f108.1e100.net.imaps > d-69-91-181-31.dhcp4.washington.edu.54419: Flags [P.], cksum 0xace7 (correct), seq 64:180, ack 122, win 366, options [nop,nop,TS val 919179677 ecr 205055557], length 116
+00:36:01.928155 IP (tos 0x0, ttl 64, id 22093, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54419 > pe-in-f108.1e100.net.imaps: Flags [.], cksum 0xa38b (correct), ack 180, win 8184, options [nop,nop,TS val 205056130 ecr 919179677], length 0
+00:36:01.929811 IP (tos 0x0, ttl 64, id 24476, offset 0, flags [DF], proto TCP (6), length 91)
+    d-69-91-181-31.dhcp4.washington.edu.54419 > pe-in-f108.1e100.net.imaps: Flags [P.], cksum 0xe37c (correct), seq 122:161, ack 180, win 8192, options [nop,nop,TS val 205056131 ecr 919179677], length 39
+00:36:01.931058 IP (tos 0x0, ttl 64, id 26811, offset 0, flags [DF], proto TCP (6), length 96)
+    d-69-91-181-31.dhcp4.washington.edu.54433 > pe-in-f108.1e100.net.imaps: Flags [P.], cksum 0xdad5 (correct), seq 1970589667:1970589711, ack 2679954818, win 8192, options [nop,nop,TS val 205056132 ecr 800733144], length 44
+00:36:01.961571 IP (tos 0x0, ttl 44, id 52715, offset 0, flags [none], proto TCP (6), length 52)
+    pe-in-f108.1e100.net.imaps > d-69-91-181-31.dhcp4.washington.edu.54419: Flags [.], cksum 0xc1a0 (correct), ack 161, win 366, options [nop,nop,TS val 919179754 ecr 205056131], length 0
+00:36:02.132065 IP (tos 0x0, ttl 44, id 52716, offset 0, flags [none], proto TCP (6), length 87)
+    pe-in-f108.1e100.net.imaps > d-69-91-181-31.dhcp4.washington.edu.54419: Flags [P.], cksum 0x00cb (correct), seq 180:215, ack 161, win 366, options [nop,nop,TS val 919179932 ecr 205056131], length 35
+00:36:02.132078 IP (tos 0x0, ttl 44, id 12247, offset 0, flags [none], proto TCP (6), length 273)
+    pe-in-f108.1e100.net.imaps > d-69-91-181-31.dhcp4.washington.edu.54433: Flags [P.], cksum 0xb199 (correct), seq 1:222, ack 44, win 358, options [nop,nop,TS val 801196728 ecr 205056132], length 221
+00:36:02.132079 IP (tos 0x0, ttl 44, id 12248, offset 0, flags [none], proto TCP (6), length 365)
+    pe-in-f108.1e100.net.imaps > d-69-91-181-31.dhcp4.washington.edu.54433: Flags [P.], cksum 0x1a31 (correct), seq 222:535, ack 44, win 358, options [nop,nop,TS val 801196728 ecr 205056132], length 313
+00:36:02.132135 IP (tos 0x0, ttl 64, id 55736, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54419 > pe-in-f108.1e100.net.imaps: Flags [.], cksum 0xa174 (correct), ack 215, win 8189, options [nop,nop,TS val 205056331 ecr 919179932], length 0
+00:36:02.132201 IP (tos 0x0, ttl 64, id 24798, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54433 > pe-in-f108.1e100.net.imaps: Flags [.], cksum 0xf146 (correct), ack 222, win 8178, options [nop,nop,TS val 205056331 ecr 801196728], length 0
+00:36:02.132202 IP (tos 0x0, ttl 64, id 55270, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54433 > pe-in-f108.1e100.net.imaps: Flags [.], cksum 0xf021 (correct), ack 535, win 8158, options [nop,nop,TS val 205056331 ecr 801196728], length 0
+00:36:02.133242 IP (tos 0x0, ttl 64, id 6444, offset 0, flags [DF], proto TCP (6), length 83)
+    d-69-91-181-31.dhcp4.washington.edu.54419 > pe-in-f108.1e100.net.imaps: Flags [P.], cksum 0x4e62 (correct), seq 161:192, ack 215, win 8192, options [nop,nop,TS val 205056332 ecr 919179932], length 31
+00:36:02.133613 IP (tos 0x0, ttl 64, id 65458, offset 0, flags [DF], proto TCP (6), length 96)
+    d-69-91-181-31.dhcp4.washington.edu.54436 > pe-in-f108.1e100.net.imaps: Flags [P.], cksum 0x0ac1 (correct), seq 4248770391:4248770435, ack 3434289263, win 8192, options [nop,nop,TS val 205056332 ecr 795855432], length 44
+00:36:02.182083 IP (tos 0x0, ttl 44, id 52717, offset 0, flags [none], proto TCP (6), length 52)
+    pe-in-f108.1e100.net.imaps > d-69-91-181-31.dhcp4.washington.edu.54419: Flags [.], cksum 0xbfcc (correct), ack 192, win 366, options [nop,nop,TS val 919179955 ecr 205056332], length 0
+00:36:02.182089 IP (tos 0x0, ttl 44, id 37631, offset 0, flags [none], proto TCP (6), length 52)
+    pe-in-f108.1e100.net.imaps > d-69-91-181-31.dhcp4.washington.edu.54436: Flags [.], cksum 0x47f1 (correct), ack 44, win 358, options [nop,nop,TS val 796318875 ecr 205056332], length 0
+00:36:02.328126 IP (tos 0x0, ttl 44, id 52718, offset 0, flags [none], proto TCP (6), length 115)
+    pe-in-f108.1e100.net.imaps > d-69-91-181-31.dhcp4.washington.edu.54419: Flags [P.], cksum 0xdfc8 (correct), seq 215:278, ack 192, win 366, options [nop,nop,TS val 919180134 ecr 205056332], length 63
+00:36:02.328275 IP (tos 0x0, ttl 64, id 49680, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54419 > pe-in-f108.1e100.net.imaps: Flags [.], cksum 0x9f8c (correct), ack 278, win 8188, options [nop,nop,TS val 205056524 ecr 919180134], length 0
+00:36:02.329135 IP (tos 0x0, ttl 64, id 37444, offset 0, flags [DF], proto TCP (6), length 143)
+    d-69-91-181-31.dhcp4.washington.edu.54419 > pe-in-f108.1e100.net.imaps: Flags [P.], cksum 0xc87d (correct), seq 192:283, ack 278, win 8192, options [nop,nop,TS val 205056524 ecr 919180134], length 91
+00:36:02.338711 IP (tos 0x0, ttl 44, id 52719, offset 0, flags [none], proto TCP (6), length 52)
+    pe-in-f108.1e100.net.imaps > d-69-91-181-31.dhcp4.washington.edu.54419: Flags [.], cksum 0xbdb5 (correct), ack 283, win 366, options [nop,nop,TS val 919180144 ecr 205056524], length 0
+00:36:02.362944 IP (tos 0x0, ttl 44, id 37632, offset 0, flags [none], proto TCP (6), length 143)
+    pe-in-f108.1e100.net.imaps > d-69-91-181-31.dhcp4.washington.edu.54436: Flags [P.], cksum 0xc16e (correct), seq 1:92, ack 44, win 358, options [nop,nop,TS val 796319053 ecr 205056332], length 91
+00:36:02.362947 IP (tos 0x0, ttl 44, id 37633, offset 0, flags [none], proto TCP (6), length 465)
+    pe-in-f108.1e100.net.imaps > d-69-91-181-31.dhcp4.washington.edu.54436: Flags [P.], cksum 0x3bd8 (correct), seq 92:505, ack 44, win 358, options [nop,nop,TS val 796319053 ecr 205056332], length 413
+00:36:02.362948 IP (tos 0x0, ttl 44, id 37634, offset 0, flags [none], proto TCP (6), length 107)
+    pe-in-f108.1e100.net.imaps > d-69-91-181-31.dhcp4.washington.edu.54436: Flags [P.], cksum 0x63c7 (correct), seq 505:560, ack 44, win 358, options [nop,nop,TS val 796319053 ecr 205056332], length 55
+00:36:02.363017 IP (tos 0x0, ttl 64, id 47238, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54436 > pe-in-f108.1e100.net.imaps: Flags [.], cksum 0x276f (correct), ack 92, win 8186, options [nop,nop,TS val 205056557 ecr 796319053], length 0
+00:36:02.363018 IP (tos 0x0, ttl 64, id 16284, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54436 > pe-in-f108.1e100.net.imaps: Flags [.], cksum 0x25ec (correct), ack 505, win 8160, options [nop,nop,TS val 205056557 ecr 796319053], length 0
+00:36:02.363018 IP (tos 0x0, ttl 64, id 584, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54436 > pe-in-f108.1e100.net.imaps: Flags [.], cksum 0x25b8 (correct), ack 560, win 8157, options [nop,nop,TS val 205056557 ecr 796319053], length 0
+00:36:02.409554 IP (tos 0x0, ttl 44, id 37635, offset 0, flags [none], proto TCP (6), length 107)
+    pe-in-f108.1e100.net.imaps > d-69-91-181-31.dhcp4.washington.edu.54436: Flags [P.], cksum 0x62b6 (correct), seq 505:560, ack 44, win 358, options [nop,nop,TS val 796319101 ecr 205056557], length 55
+00:36:02.409632 IP (tos 0x0, ttl 64, id 45486, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54436 > pe-in-f108.1e100.net.imaps: Flags [.], cksum 0x2537 (correct), ack 560, win 8192, options [nop,nop,TS val 205056603 ecr 796319101], length 0
+00:36:02.523764 IP (tos 0x0, ttl 44, id 52720, offset 0, flags [none], proto TCP (6), length 168)
+    pe-in-f108.1e100.net.imaps > d-69-91-181-31.dhcp4.washington.edu.54419: Flags [P.], cksum 0x0b23 (correct), seq 278:394, ack 283, win 366, options [nop,nop,TS val 919180323 ecr 205056524], length 116
+00:36:02.523874 IP (tos 0x0, ttl 64, id 35251, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54419 > pe-in-f108.1e100.net.imaps: Flags [.], cksum 0x9d44 (correct), ack 394, win 8184, options [nop,nop,TS val 205056716 ecr 919180323], length 0
+00:36:02.525673 IP (tos 0x0, ttl 64, id 40292, offset 0, flags [DF], proto TCP (6), length 91)
+    d-69-91-181-31.dhcp4.washington.edu.54419 > pe-in-f108.1e100.net.imaps: Flags [P.], cksum 0x6d8d (correct), seq 283:322, ack 394, win 8192, options [nop,nop,TS val 205056717 ecr 919180323], length 39
+00:36:02.526047 IP (tos 0x0, ttl 64, id 38949, offset 0, flags [DF], proto TCP (6), length 150)
+    d-69-91-181-31.dhcp4.washington.edu.54420 > pe-in-f109.1e100.net.imaps: Flags [P.], cksum 0x75e4 (correct), seq 88:186, ack 1044, win 8192, options [nop,nop,TS val 205056717 ecr 881241916], length 98
+00:36:02.542689 IP (tos 0x0, ttl 44, id 52721, offset 0, flags [none], proto TCP (6), length 52)
+    pe-in-f108.1e100.net.imaps > d-69-91-181-31.dhcp4.washington.edu.54419: Flags [.], cksum 0xbb93 (correct), ack 322, win 366, options [nop,nop,TS val 919180342 ecr 205056717], length 0
+00:36:02.542697 IP (tos 0x0, ttl 44, id 546, offset 0, flags [none], proto TCP (6), length 52)
+    pe-in-f109.1e100.net.imaps > d-69-91-181-31.dhcp4.washington.edu.54420: Flags [.], cksum 0xff22 (correct), ack 186, win 358, options [nop,nop,TS val 881243323 ecr 205056717], length 0
+00:36:02.727579 IP (tos 0xc0, ttl 1, id 21920, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.113: igmp query v2 [max resp time 10] [gaddr 224.0.0.113]
+00:36:02.750443 IP (tos 0x0, ttl 44, id 52722, offset 0, flags [none], proto TCP (6), length 87)
+    pe-in-f108.1e100.net.imaps > d-69-91-181-31.dhcp4.washington.edu.54419: Flags [P.], cksum 0x0843 (correct), seq 394:429, ack 322, win 366, options [nop,nop,TS val 919180520 ecr 205056717], length 35
+00:36:02.750446 IP (tos 0x0, ttl 44, id 547, offset 0, flags [none], proto TCP (6), length 176)
+    pe-in-f109.1e100.net.imaps > d-69-91-181-31.dhcp4.washington.edu.54420: Flags [P.], cksum 0x4987 (correct), seq 1044:1168, ack 186, win 358, options [nop,nop,TS val 881243503 ecr 205056717], length 124
+00:36:02.750523 IP (tos 0x0, ttl 64, id 36171, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54419 > pe-in-f108.1e100.net.imaps: Flags [.], cksum 0x9b4f (correct), ack 429, win 8189, options [nop,nop,TS val 205056941 ecr 919180520], length 0
+00:36:02.750590 IP (tos 0x0, ttl 64, id 20349, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54420 > pe-in-f109.1e100.net.imaps: Flags [.], cksum 0xde80 (correct), ack 1168, win 8184, options [nop,nop,TS val 205056941 ecr 881243503], length 0
+00:36:02.752512 IP (tos 0x0, ttl 64, id 51794, offset 0, flags [DF], proto TCP (6), length 140)
+    d-69-91-181-31.dhcp4.washington.edu.54420 > pe-in-f109.1e100.net.imaps: Flags [P.], cksum 0x2ed5 (correct), seq 186:274, ack 1168, win 8192, options [nop,nop,TS val 205056942 ecr 881243503], length 88
+00:36:02.769246 IP (tos 0x0, ttl 44, id 548, offset 0, flags [none], proto TCP (6), length 52)
+    pe-in-f109.1e100.net.imaps > d-69-91-181-31.dhcp4.washington.edu.54420: Flags [.], cksum 0xfc8b (correct), ack 274, win 358, options [nop,nop,TS val 881243549 ecr 205056942], length 0
+00:36:02.769308 IP (tos 0x0, ttl 64, id 24454, offset 0, flags [DF], proto TCP (6), length 139)
+    d-69-91-181-31.dhcp4.washington.edu.54420 > pe-in-f109.1e100.net.imaps: Flags [P.], cksum 0xa49e (correct), seq 274:361, ack 1168, win 8192, options [nop,nop,TS val 205056958 ecr 881243549], length 87
+00:36:02.794425 IP (tos 0x0, ttl 44, id 549, offset 0, flags [none], proto TCP (6), length 52)
+    pe-in-f109.1e100.net.imaps > d-69-91-181-31.dhcp4.washington.edu.54420: Flags [.], cksum 0xfc10 (correct), ack 361, win 358, options [nop,nop,TS val 881243569 ecr 205056958], length 0
+00:36:02.944890 IP (tos 0x0, ttl 44, id 550, offset 0, flags [none], proto TCP (6), length 163)
+    pe-in-f109.1e100.net.imaps > d-69-91-181-31.dhcp4.washington.edu.54420: Flags [P.], cksum 0x87fe (correct), seq 1168:1279, ack 361, win 358, options [nop,nop,TS val 881243729 ecr 205056958], length 111
+00:36:02.944951 IP (tos 0x0, ttl 64, id 45715, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54420 > pe-in-f109.1e100.net.imaps: Flags [.], cksum 0xdbbf (correct), ack 1279, win 8185, options [nop,nop,TS val 205057133 ecr 881243729], length 0
+00:36:02.971631 IP (tos 0x0, ttl 44, id 551, offset 0, flags [none], proto TCP (6), length 162)
+    pe-in-f109.1e100.net.imaps > d-69-91-181-31.dhcp4.washington.edu.54420: Flags [P.], cksum 0xc5dd (correct), seq 1279:1389, ack 361, win 358, options [nop,nop,TS val 881243749 ecr 205056958], length 110
+00:36:02.971749 IP (tos 0x0, ttl 64, id 10656, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54420 > pe-in-f109.1e100.net.imaps: Flags [.], cksum 0xdb23 (correct), ack 1389, win 8185, options [nop,nop,TS val 205057159 ecr 881243749], length 0
+00:36:03.238517 IP (tos 0xc0, ttl 1, id 26711, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:36:03.753132 IP (tos 0xc0, ttl 1, id 31389, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.113: igmp query v2 [max resp time 10] [gaddr 224.0.0.113]
+00:36:04.160755 IP (tos 0xc0, ttl 1, id 36110, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:36:04.305121 IP (tos 0x0, ttl 255, id 57040, offset 0, flags [none], proto UDP (17), length 62)
+    d-69-91-181-31.dhcp4.washington.edu.61936 > dns2.cac.washington.edu.domain: 57484+ A? mail.comcast.net. (34)
+00:36:04.313157 IP (tos 0x0, ttl 59, id 56463, offset 0, flags [none], proto UDP (17), length 419)
+    dns2.cac.washington.edu.domain > d-69-91-181-31.dhcp4.washington.edu.61936: 57484 2/5/10 mail.comcast.net. A 68.87.20.9, mail.comcast.net. A 96.114.157.77 (391)
+00:36:04.722320 IP (tos 0x0, ttl 255, id 7191, offset 0, flags [none], proto UDP (17), length 62)
+    d-69-91-181-31.dhcp4.washington.edu.53644 > dns2.cac.washington.edu.domain: 54196+ AAAA? mail.comcast.net. (34)
+00:36:04.728768 IP (tos 0x0, ttl 59, id 56464, offset 0, flags [none], proto UDP (17), length 443)
+    dns2.cac.washington.edu.domain > d-69-91-181-31.dhcp4.washington.edu.53644: 54196 2/5/10 mail.comcast.net. AAAA 2001:558:fe16:1b::13, mail.comcast.net. AAAA 2001:558:fe21:2a::7 (415)
+00:36:04.729885 IP (tos 0x0, ttl 255, id 367, offset 0, flags [none], proto UDP (17), length 69)
+    d-69-91-181-31.dhcp4.washington.edu.56849 > dns2.cac.washington.edu.domain: 24094+ PTR? 9.20.87.68.in-addr.arpa. (41)
+00:36:04.729951 IP (tos 0x0, ttl 255, id 55357, offset 0, flags [none], proto UDP (17), length 72)
+    d-69-91-181-31.dhcp4.washington.edu.50865 > dns2.cac.washington.edu.domain: 13047+ PTR? 77.157.114.96.in-addr.arpa. (44)
+00:36:04.730319 IP (tos 0x0, ttl 255, id 35218, offset 0, flags [none], proto UDP (17), length 118)
+    d-69-91-181-31.dhcp4.washington.edu.56305 > dns2.cac.washington.edu.domain: 57505+ PTR? 3.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.b.1.0.0.6.1.e.f.8.5.5.0.1.0.0.2.ip6.arpa. (90)
+00:36:04.730609 IP (tos 0x0, ttl 255, id 50213, offset 0, flags [none], proto UDP (17), length 118)
+    d-69-91-181-31.dhcp4.washington.edu.59597 > dns2.cac.washington.edu.domain: 42813+ PTR? 7.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.a.2.0.0.1.2.e.f.8.5.5.0.1.0.0.2.ip6.arpa. (90)
+00:36:04.739847 IP (tos 0x0, ttl 59, id 56465, offset 0, flags [none], proto UDP (17), length 432)
+    dns2.cac.washington.edu.domain > d-69-91-181-31.dhcp4.washington.edu.56849: 24094 1/5/10 9.20.87.68.in-addr.arpa. PTR pop3-ch2.sys.comcast.net. (404)
+00:36:04.741845 IP (tos 0x0, ttl 64, id 30116, offset 0, flags [DF], proto TCP (6), length 64)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [S], cksum 0xfe2f (correct), seq 512880412, win 65535, options [mss 1460,nop,wscale 4,nop,nop,TS val 205058927 ecr 0,sackOK,eol], length 0
+00:36:04.763749 IP (tos 0x0, ttl 59, id 56466, offset 0, flags [none], proto UDP (17), length 434)
+    dns2.cac.washington.edu.domain > d-69-91-181-31.dhcp4.washington.edu.50865: 13047 1/5/10 77.157.114.96.in-addr.arpa. PTR pop3-po.sys.comcast.net. (406)
+00:36:04.763755 IP (tos 0x0, ttl 59, id 56467, offset 0, flags [none], proto UDP (17), length 481)
+    dns2.cac.washington.edu.domain > d-69-91-181-31.dhcp4.washington.edu.59597: 42813 1/5/10 7.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.a.2.0.0.1.2.e.f.8.5.5.0.1.0.0.2.ip6.arpa. PTR pop3-ch2.sys.comcast.net. (453)
+00:36:04.763764 IP (tos 0x0, ttl 59, id 56468, offset 0, flags [none], proto UDP (17), length 480)
+    dns2.cac.washington.edu.domain > d-69-91-181-31.dhcp4.washington.edu.56305: 57505 1/5/10 3.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.b.1.0.0.6.1.e.f.8.5.5.0.1.0.0.2.ip6.arpa. PTR pop3-po.sys.comcast.net. (452)
+00:36:04.876989 IP (tos 0x0, ttl 50, id 0, offset 0, flags [DF], proto TCP (6), length 60)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [S.], cksum 0x917e (correct), seq 2386083804, ack 512880413, win 14480, options [mss 1386,sackOK,TS val 216328800 ecr 205058927,nop,wscale 9], length 0
+00:36:04.877050 IP (tos 0x0, ttl 64, id 22860, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [.], cksum 0xd7d7 (correct), ack 1, win 8244, options [nop,nop,TS val 205059062 ecr 216328800], length 0
+00:36:04.878218 IP (tos 0x0, ttl 64, id 53492, offset 0, flags [DF], proto TCP (6), length 219)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [P.], cksum 0x03b1 (correct), seq 1:168, ack 1, win 8244, options [nop,nop,TS val 205059063 ecr 216328800], length 167
+00:36:04.929683 IP (tos 0x0, ttl 50, id 21861, offset 0, flags [DF], proto TCP (6), length 52)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [.], cksum 0xf6ec (correct), ack 168, win 31, options [nop,nop,TS val 216328888 ecr 205059063], length 0
+00:36:04.940214 IP (tos 0x0, ttl 50, id 21862, offset 0, flags [DF], proto TCP (6), length 1426)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [.], cksum 0xea43 (correct), seq 1:1375, ack 168, win 31, options [nop,nop,TS val 216328888 ecr 205059063], length 1374
+00:36:04.940236 IP (tos 0x0, ttl 50, id 21863, offset 0, flags [DF], proto TCP (6), length 1426)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [.], cksum 0x3210 (correct), seq 1375:2749, ack 168, win 31, options [nop,nop,TS val 216328888 ecr 205059063], length 1374
+00:36:04.940237 IP (tos 0x0, ttl 50, id 21864, offset 0, flags [DF], proto TCP (6), length 1286)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [P.], cksum 0x4545 (correct), seq 2749:3983, ack 168, win 31, options [nop,nop,TS val 216328888 ecr 205059063], length 1234
+00:36:04.940308 IP (tos 0x0, ttl 64, id 51933, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [.], cksum 0xcc8a (correct), ack 2749, win 8072, options [nop,nop,TS val 205059124 ecr 216328888], length 0
+00:36:04.940309 IP (tos 0x0, ttl 64, id 6247, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [.], cksum 0xc805 (correct), ack 3983, win 7995, options [nop,nop,TS val 205059124 ecr 216328888], length 0
+00:36:04.940395 IP (tos 0x0, ttl 64, id 5156, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [.], cksum 0xc740 (correct), ack 3983, win 8192, options [nop,nop,TS val 205059124 ecr 216328888], length 0
+00:36:04.945485 IP (tos 0x0, ttl 64, id 58328, offset 0, flags [DF], proto TCP (6), length 319)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [P.], cksum 0x4b18 (correct), seq 168:435, ack 3983, win 8192, options [nop,nop,TS val 205059128 ecr 216328888], length 267
+00:36:04.988713 IP (tos 0x0, ttl 255, id 2651, offset 0, flags [none], proto UDP (17), length 71)
+    d-69-91-181-31.dhcp4.washington.edu.57703 > dns2.cac.washington.edu.domain: 36204+ PTR? 1.112.95.128.in-addr.arpa. (43)
+00:36:05.003240 IP (tos 0x0, ttl 59, id 56469, offset 0, flags [none], proto UDP (17), length 252)
+    dns2.cac.washington.edu.domain > d-69-91-181-31.dhcp4.washington.edu.57703: 36204* 1/3/4 1.112.95.128.in-addr.arpa. PTR dns2.cac.washington.edu. (224)
+00:36:05.045205 IP (tos 0x0, ttl 50, id 21865, offset 0, flags [DF], proto TCP (6), length 52)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [.], cksum 0xe59c (correct), ack 435, win 33, options [nop,nop,TS val 216329004 ecr 205059128], length 0
+00:36:05.045268 IP (tos 0x0, ttl 64, id 30377, offset 0, flags [DF], proto TCP (6), length 111)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [P.], cksum 0x0ae0 (correct), seq 435:494, ack 3983, win 8192, options [nop,nop,TS val 205059227 ecr 216329004], length 59
+00:36:05.097281 IP (tos 0x0, ttl 50, id 21866, offset 0, flags [DF], proto TCP (6), length 52)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [.], cksum 0xe4cc (correct), ack 494, win 33, options [nop,nop,TS val 216329054 ecr 205059227], length 0
+00:36:05.097285 IP (tos 0x0, ttl 50, id 21867, offset 0, flags [DF], proto TCP (6), length 111)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [P.], cksum 0x02c3 (correct), seq 3983:4042, ack 494, win 33, options [nop,nop,TS val 216329054 ecr 205059227], length 59
+00:36:05.097365 IP (tos 0x0, ttl 64, id 58428, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [.], cksum 0xc482 (correct), ack 4042, win 8188, options [nop,nop,TS val 205059279 ecr 216329054], length 0
+00:36:05.150420 IP (tos 0x0, ttl 50, id 21868, offset 0, flags [DF], proto TCP (6), length 105)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [P.], cksum 0xc72f (correct), seq 4042:4095, ack 494, win 33, options [nop,nop,TS val 216329106 ecr 205059279], length 53
+00:36:05.150516 IP (tos 0x0, ttl 64, id 40072, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [.], cksum 0xc3e5 (correct), ack 4095, win 8188, options [nop,nop,TS val 205059331 ecr 216329106], length 0
+00:36:05.150912 IP (tos 0x0, ttl 64, id 61745, offset 0, flags [DF], proto TCP (6), length 89)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [P.], cksum 0x48f6 (correct), seq 494:531, ack 4095, win 8192, options [nop,nop,TS val 205059331 ecr 216329106], length 37
+00:36:05.205762 IP (tos 0x0, ttl 50, id 21869, offset 0, flags [DF], proto TCP (6), length 169)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [P.], cksum 0x0f17 (correct), seq 4095:4212, ack 531, win 33, options [nop,nop,TS val 216329161 ecr 205059331], length 117
+00:36:05.205853 IP (tos 0x0, ttl 64, id 26132, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [.], cksum 0xc2e1 (correct), ack 4212, win 8184, options [nop,nop,TS val 205059386 ecr 216329161], length 0
+00:36:05.206341 IP (tos 0x0, ttl 64, id 30573, offset 0, flags [DF], proto TCP (6), length 89)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [P.], cksum 0x4b0f (correct), seq 531:568, ack 4212, win 8192, options [nop,nop,TS val 205059386 ecr 216329161], length 37
+00:36:05.224906 IP (tos 0x0, ttl 52, id 38391, offset 0, flags [DF], proto TCP (6), length 137)
+    live.github.com.https > d-69-91-181-31.dhcp4.washington.edu.54412: Flags [P.], cksum 0xa198 (correct), seq 60550627:60550712, ack 1951318615, win 17, options [nop,nop,TS val 943006015 ecr 204999488], length 85
+00:36:05.224985 IP (tos 0x0, ttl 64, id 40602, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54412 > live.github.com.https: Flags [.], cksum 0x4617 (correct), ack 85, win 8186, options [nop,nop,TS val 205059405 ecr 943006015], length 0
+00:36:05.238190 IP (tos 0x0, ttl 52, id 14926, offset 0, flags [DF], proto TCP (6), length 137)
+    live.github.com.https > d-69-91-181-31.dhcp4.washington.edu.54413: Flags [P.], cksum 0x8391 (correct), seq 1032749590:1032749675, ack 2378476756, win 17, options [nop,nop,TS val 943006020 ecr 204999491], length 85
+00:36:05.238258 IP (tos 0x0, ttl 64, id 64193, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54413 > live.github.com.https: Flags [.], cksum 0x73eb (correct), ack 85, win 8186, options [nop,nop,TS val 205059418 ecr 943006020], length 0
+00:36:05.244239 IP (tos 0x0, ttl 52, id 30159, offset 0, flags [DF], proto TCP (6), length 137)
+    live.github.com.https > d-69-91-181-31.dhcp4.washington.edu.54415: Flags [P.], cksum 0x87ba (correct), seq 3511766586:3511766671, ack 494000317, win 17, options [nop,nop,TS val 943006021 ecr 204999491], length 85
+00:36:05.244296 IP (tos 0x0, ttl 64, id 50766, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54415 > live.github.com.https: Flags [.], cksum 0x5865 (correct), ack 85, win 8186, options [nop,nop,TS val 205059424 ecr 943006021], length 0
+00:36:05.287274 IP (tos 0x0, ttl 52, id 42927, offset 0, flags [DF], proto TCP (6), length 137)
+    live.github.com.https > d-69-91-181-31.dhcp4.washington.edu.54414: Flags [P.], cksum 0x72f1 (correct), seq 3613588614:3613588699, ack 4091564222, win 17, options [nop,nop,TS val 943006031 ecr 204999498], length 85
+00:36:05.287338 IP (tos 0x0, ttl 64, id 8632, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54414 > live.github.com.https: Flags [.], cksum 0x5564 (correct), ack 85, win 8186, options [nop,nop,TS val 205059466 ecr 943006031], length 0
+00:36:05.298895 IP (tos 0x0, ttl 50, id 21870, offset 0, flags [DF], proto TCP (6), length 52)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [.], cksum 0xe232 (correct), ack 568, win 33, options [nop,nop,TS val 216329258 ecr 205059386], length 0
+00:36:05.298956 IP (tos 0x0, ttl 64, id 2426, offset 0, flags [DF], proto TCP (6), length 89)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [P.], cksum 0x8508 (correct), seq 568:605, ack 4212, win 8192, options [nop,nop,TS val 205059477 ecr 216329258], length 37
+00:36:05.352670 IP (tos 0x0, ttl 50, id 21871, offset 0, flags [DF], proto TCP (6), length 52)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [.], cksum 0xe17f (correct), ack 605, win 33, options [nop,nop,TS val 216329309 ecr 205059477], length 0
+00:36:05.353980 IP (tos 0x0, ttl 50, id 21872, offset 0, flags [DF], proto TCP (6), length 89)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [P.], cksum 0x26fb (correct), seq 4212:4249, ack 605, win 33, options [nop,nop,TS val 216329311 ecr 205059477], length 37
+00:36:05.354051 IP (tos 0x0, ttl 64, id 54409, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [.], cksum 0xc147 (correct), ack 4249, win 8189, options [nop,nop,TS val 205059530 ecr 216329311], length 0
+00:36:05.356731 IP (tos 0x0, ttl 64, id 30106, offset 0, flags [DF], proto TCP (6), length 89)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [P.], cksum 0x00fe (correct), seq 605:642, ack 4249, win 8192, options [nop,nop,TS val 205059532 ecr 216329311], length 37
+00:36:05.447858 IP (tos 0x0, ttl 50, id 21873, offset 0, flags [DF], proto TCP (6), length 52)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [.], cksum 0xe09d (correct), ack 642, win 33, options [nop,nop,TS val 216329406 ecr 205059532], length 0
+00:36:05.447965 IP (tos 0x0, ttl 64, id 12728, offset 0, flags [DF], proto TCP (6), length 121)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [P.], cksum 0x6291 (correct), seq 642:711, ack 4249, win 8192, options [nop,nop,TS val 205059623 ecr 216329406], length 69
+00:36:05.500156 IP (tos 0x0, ttl 50, id 21874, offset 0, flags [DF], proto TCP (6), length 52)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [.], cksum 0xdfc9 (correct), ack 711, win 33, options [nop,nop,TS val 216329458 ecr 205059623], length 0
+00:36:05.593683 IP (tos 0xc0, ttl 1, id 47890, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:36:05.642484 IP (tos 0x0, ttl 50, id 21875, offset 0, flags [DF], proto TCP (6), length 121)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [P.], cksum 0xad32 (correct), seq 4249:4318, ack 711, win 33, options [nop,nop,TS val 216329593 ecr 205059623], length 69
+00:36:05.642562 IP (tos 0x0, ttl 64, id 35008, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [.], cksum 0xbe62 (correct), ack 4318, win 8187, options [nop,nop,TS val 205059816 ecr 216329593], length 0
+00:36:05.644055 IP (tos 0x0, ttl 64, id 37966, offset 0, flags [DF], proto TCP (6), length 89)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [P.], cksum 0x397c (correct), seq 711:748, ack 4318, win 8192, options [nop,nop,TS val 205059817 ecr 216329593], length 37
+00:36:05.652036 IP (tos 0x0, ttl 255, id 16115, offset 0, flags [none], proto UDP (17), length 68)
+    d-69-91-181-31.dhcp4.washington.edu.64369 > dns2.cac.washington.edu.domain: 5244+ A? star.c10r.facebook.com. (40)
+00:36:05.662440 IP (tos 0x0, ttl 59, id 56470, offset 0, flags [none], proto UDP (17), length 151)
+    dns2.cac.washington.edu.domain > d-69-91-181-31.dhcp4.washington.edu.64369: 5244 1/2/2 star.c10r.facebook.com. A 31.13.70.81 (123)
+00:36:05.662852 IP (tos 0x0, ttl 64, id 50492, offset 0, flags [DF], proto TCP (6), length 64)
+    d-69-91-181-31.dhcp4.washington.edu.54459 > edge-star-shv-06-lax1.facebook.com.https: Flags [S], cksum 0x8aea (correct), seq 4194007188, win 65535, options [mss 1460,nop,wscale 4,nop,nop,TS val 205059835 ecr 0,sackOK,eol], length 0
+00:36:05.696010 IP (tos 0x0, ttl 84, id 0, offset 0, flags [DF], proto TCP (6), length 60)
+    edge-star-shv-06-lax1.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54459: Flags [S.], cksum 0xc47d (correct), seq 2980333457, ack 4194007189, win 14480, options [mss 1386,sackOK,TS val 945581444 ecr 205059835,nop,wscale 8], length 0
+00:36:05.696134 IP (tos 0x0, ttl 64, id 56877, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54459 > edge-star-shv-06-lax1.facebook.com.https: Flags [.], cksum 0x0b3c (correct), ack 1, win 8244, options [nop,nop,TS val 205059868 ecr 945581444], length 0
+00:36:05.697278 IP (tos 0x0, ttl 64, id 58797, offset 0, flags [DF], proto TCP (6), length 235)
+    d-69-91-181-31.dhcp4.washington.edu.54459 > edge-star-shv-06-lax1.facebook.com.https: Flags [P.], cksum 0x2870 (correct), seq 1:184, ack 1, win 8244, options [nop,nop,TS val 205059869 ecr 945581444], length 183
+00:36:05.708494 IP (tos 0x0, ttl 50, id 21876, offset 0, flags [DF], proto TCP (6), length 52)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [.], cksum 0xddd0 (correct), ack 748, win 33, options [nop,nop,TS val 216329663 ecr 205059817], length 0
+00:36:05.708603 IP (tos 0x0, ttl 64, id 9862, offset 0, flags [DF], proto TCP (6), length 89)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [P.], cksum 0x1d3c (correct), seq 748:785, ack 4318, win 8192, options [nop,nop,TS val 205059880 ecr 216329663], length 37
+00:36:05.740919 IP (tos 0x0, ttl 84, id 10805, offset 0, flags [DF], proto TCP (6), length 52)
+    edge-star-shv-06-lax1.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54459: Flags [.], cksum 0x2a4b (correct), ack 184, win 61, options [nop,nop,TS val 945581492 ecr 205059869], length 0
+00:36:05.742093 IP (tos 0x0, ttl 84, id 10806, offset 0, flags [DF], proto TCP (6), length 1426)
+    edge-star-shv-06-lax1.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54459: Flags [.], cksum 0x7b14 (correct), seq 1:1375, ack 184, win 61, options [nop,nop,TS val 945581493 ecr 205059869], length 1374
+00:36:05.742552 IP (tos 0x0, ttl 84, id 10807, offset 0, flags [DF], proto TCP (6), length 1426)
+    edge-star-shv-06-lax1.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54459: Flags [.], cksum 0xa8bf (correct), seq 1375:2749, ack 184, win 61, options [nop,nop,TS val 945581493 ecr 205059869], length 1374
+00:36:05.742555 IP (tos 0x0, ttl 84, id 10808, offset 0, flags [DF], proto TCP (6), length 400)
+    edge-star-shv-06-lax1.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54459: Flags [P.], cksum 0x4e01 (correct), seq 2749:3097, ack 184, win 61, options [nop,nop,TS val 945581493 ecr 205059869], length 348
+00:36:05.742615 IP (tos 0x0, ttl 64, id 27200, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54459 > edge-star-shv-06-lax1.facebook.com.https: Flags [.], cksum 0xfff4 (correct), ack 2749, win 8106, options [nop,nop,TS val 205059913 ecr 945581493], length 0
+00:36:05.742616 IP (tos 0x0, ttl 64, id 54353, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54459 > edge-star-shv-06-lax1.facebook.com.https: Flags [.], cksum 0xfeae (correct), ack 3097, win 8084, options [nop,nop,TS val 205059913 ecr 945581493], length 0
+00:36:05.764747 IP (tos 0x0, ttl 50, id 21877, offset 0, flags [DF], proto TCP (6), length 52)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [.], cksum 0xdd33 (correct), ack 785, win 33, options [nop,nop,TS val 216329720 ecr 205059880], length 0
+00:36:05.782307 IP (tos 0x0, ttl 64, id 31936, offset 0, flags [DF], proto TCP (6), length 127)
+    d-69-91-181-31.dhcp4.washington.edu.54459 > edge-star-shv-06-lax1.facebook.com.https: Flags [P.], cksum 0x6a72 (correct), seq 184:259, ack 3097, win 8192, options [nop,nop,TS val 205059951 ecr 945581493], length 75
+00:36:05.782308 IP (tos 0x0, ttl 64, id 13187, offset 0, flags [DF], proto TCP (6), length 58)
+    d-69-91-181-31.dhcp4.washington.edu.54459 > edge-star-shv-06-lax1.facebook.com.https: Flags [P.], cksum 0xe5bf (correct), seq 259:265, ack 3097, win 8192, options [nop,nop,TS val 205059951 ecr 945581493], length 6
+00:36:05.782308 IP (tos 0x0, ttl 64, id 38793, offset 0, flags [DF], proto TCP (6), length 121)
+    d-69-91-181-31.dhcp4.washington.edu.54459 > edge-star-shv-06-lax1.facebook.com.https: Flags [P.], cksum 0x912b (correct), seq 265:334, ack 3097, win 8192, options [nop,nop,TS val 205059951 ecr 945581493], length 69
+00:36:05.795308 IP (tos 0x0, ttl 50, id 21878, offset 0, flags [DF], proto TCP (6), length 105)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [P.], cksum 0x17d7 (correct), seq 4318:4371, ack 785, win 33, options [nop,nop,TS val 216329754 ecr 205059880], length 53
+00:36:05.795367 IP (tos 0x0, ttl 64, id 8968, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [.], cksum 0xbcad (correct), ack 4371, win 8188, options [nop,nop,TS val 205059964 ecr 216329754], length 0
+00:36:05.796710 IP (tos 0x0, ttl 64, id 7750, offset 0, flags [DF], proto TCP (6), length 89)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [P.], cksum 0x24e1 (correct), seq 785:822, ack 4371, win 8192, options [nop,nop,TS val 205059965 ecr 216329754], length 37
+00:36:05.815852 IP (tos 0x0, ttl 84, id 10809, offset 0, flags [DF], proto TCP (6), length 52)
+    edge-star-shv-06-lax1.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54459: Flags [.], cksum 0x1d4f (correct), ack 259, win 61, options [nop,nop,TS val 945581563 ecr 205059951], length 0
+00:36:05.816840 IP (tos 0x0, ttl 84, id 10810, offset 0, flags [DF], proto TCP (6), length 52)
+    edge-star-shv-06-lax1.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54459: Flags [.], cksum 0x1d49 (correct), ack 265, win 61, options [nop,nop,TS val 945581563 ecr 205059951], length 0
+00:36:05.823194 IP (tos 0x0, ttl 84, id 10811, offset 0, flags [DF], proto TCP (6), length 52)
+    edge-star-shv-06-lax1.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54459: Flags [.], cksum 0x1d04 (correct), ack 334, win 61, options [nop,nop,TS val 945581563 ecr 205059951], length 0
+00:36:05.823201 IP (tos 0x0, ttl 84, id 10812, offset 0, flags [DF], proto TCP (6), length 127)
+    edge-star-shv-06-lax1.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54459: Flags [P.], cksum 0x9d50 (correct), seq 3097:3172, ack 334, win 61, options [nop,nop,TS val 945581563 ecr 205059951], length 75
+00:36:05.823293 IP (tos 0x0, ttl 64, id 42921, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54459 > edge-star-shv-06-lax1.facebook.com.https: Flags [.], cksum 0xfcd2 (correct), ack 3172, win 8187, options [nop,nop,TS val 205059991 ecr 945581563], length 0
+00:36:05.823599 IP (tos 0x0, ttl 64, id 26231, offset 0, flags [DF], proto TCP (6), length 1273)
+    d-69-91-181-31.dhcp4.washington.edu.54459 > edge-star-shv-06-lax1.facebook.com.https: Flags [P.], cksum 0x7014 (correct), seq 334:1555, ack 3172, win 8192, options [nop,nop,TS val 205059991 ecr 945581563], length 1221
+00:36:05.887749 IP (tos 0x0, ttl 84, id 10813, offset 0, flags [DF], proto TCP (6), length 52)
+    edge-star-shv-06-lax1.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54459: Flags [.], cksum 0x177d (correct), ack 1555, win 73, options [nop,nop,TS val 945581630 ecr 205059991], length 0
+00:36:05.905174 IP (tos 0x0, ttl 50, id 21879, offset 0, flags [DF], proto TCP (6), length 52)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [.], cksum 0xdbfb (correct), ack 822, win 33, options [nop,nop,TS val 216329857 ecr 205059965], length 0
+00:36:05.905283 IP (tos 0x0, ttl 64, id 55456, offset 0, flags [DF], proto TCP (6), length 89)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [P.], cksum 0xd99d (correct), seq 822:859, ack 4371, win 8192, options [nop,nop,TS val 205060072 ecr 216329857], length 37
+00:36:05.910410 IP (tos 0x0, ttl 84, id 10814, offset 0, flags [DF], proto TCP (6), length 745)
+    edge-star-shv-06-lax1.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54459: Flags [P.], cksum 0xbb7b (correct), seq 3172:3865, ack 1555, win 73, options [nop,nop,TS val 945581661 ecr 205059991], length 693
+00:36:05.910479 IP (tos 0x0, ttl 64, id 17867, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54459 > edge-star-shv-06-lax1.facebook.com.https: Flags [.], cksum 0xf4c7 (correct), ack 3865, win 8148, options [nop,nop,TS val 205060077 ecr 945581661], length 0
+00:36:05.912758 IP (tos 0x0, ttl 84, id 10815, offset 0, flags [DF], proto TCP (6), length 121)
+    edge-star-shv-06-lax1.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54459: Flags [P.], cksum 0x6cfa (correct), seq 3865:3934, ack 1555, win 73, options [nop,nop,TS val 945581661 ecr 205059991], length 69
+00:36:05.912797 IP (tos 0x0, ttl 64, id 11194, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54459 > edge-star-shv-06-lax1.facebook.com.https: Flags [.], cksum 0xf459 (correct), ack 3934, win 8187, options [nop,nop,TS val 205060079 ecr 945581661], length 0
+00:36:05.959828 IP (tos 0x0, ttl 50, id 21880, offset 0, flags [DF], proto TCP (6), length 52)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [.], cksum 0xdb32 (correct), ack 859, win 33, options [nop,nop,TS val 216329914 ecr 205060072], length 0
+00:36:05.982156 IP (tos 0x0, ttl 50, id 21881, offset 0, flags [DF], proto TCP (6), length 1426)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [.], cksum 0x43c7 (correct), seq 4371:5745, ack 859, win 33, options [nop,nop,TS val 216329940 ecr 205060072], length 1374
+00:36:05.985450 IP (tos 0x0, ttl 50, id 21882, offset 0, flags [DF], proto TCP (6), length 1426)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [.], cksum 0x9d93 (correct), seq 5745:7119, ack 859, win 33, options [nop,nop,TS val 216329940 ecr 205060072], length 1374
+00:36:05.985517 IP (tos 0x0, ttl 64, id 48932, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [.], cksum 0xb085 (correct), ack 7119, win 8106, options [nop,nop,TS val 205060150 ecr 216329940], length 0
+00:36:05.988320 IP (tos 0x0, ttl 50, id 21883, offset 0, flags [DF], proto TCP (6), length 237)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [P.], cksum 0x5f92 (correct), seq 7119:7304, ack 859, win 33, options [nop,nop,TS val 216329940 ecr 205060072], length 185
+00:36:05.988472 IP (tos 0x0, ttl 64, id 33954, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [.], cksum 0xaf80 (correct), ack 7304, win 8180, options [nop,nop,TS val 205060152 ecr 216329940], length 0
+00:36:05.997088 IP (tos 0x0, ttl 50, id 21884, offset 0, flags [DF], proto TCP (6), length 1426)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [.], cksum 0x3dbc (correct), seq 7304:8678, ack 859, win 33, options [nop,nop,TS val 216329940 ecr 205060072], length 1374
+00:36:05.997096 IP (tos 0x0, ttl 50, id 21885, offset 0, flags [DF], proto TCP (6), length 1426)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [.], cksum 0x53eb (correct), seq 8678:10052, ack 859, win 33, options [nop,nop,TS val 216329940 ecr 205060072], length 1374
+00:36:05.997097 IP (tos 0x0, ttl 50, id 21886, offset 0, flags [DF], proto TCP (6), length 1426)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [.], cksum 0xfb08 (correct), seq 10052:11426, ack 859, win 33, options [nop,nop,TS val 216329940 ecr 205060072], length 1374
+00:36:05.997099 IP (tos 0x0, ttl 50, id 21887, offset 0, flags [DF], proto TCP (6), length 1426)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [.], cksum 0xe074 (correct), seq 11426:12800, ack 859, win 33, options [nop,nop,TS val 216329940 ecr 205060072], length 1374
+00:36:05.997100 IP (tos 0x0, ttl 50, id 21888, offset 0, flags [DF], proto TCP (6), length 1426)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [.], cksum 0xc408 (correct), seq 12800:14174, ack 859, win 33, options [nop,nop,TS val 216329940 ecr 205060072], length 1374
+00:36:05.997101 IP (tos 0x0, ttl 50, id 21889, offset 0, flags [DF], proto TCP (6), length 1426)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [.], cksum 0x5608 (correct), seq 14174:15548, ack 859, win 33, options [nop,nop,TS val 216329940 ecr 205060072], length 1374
+00:36:05.997171 IP (tos 0x0, ttl 64, id 8475, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [.], cksum 0xa55c (correct), ack 10052, win 8020, options [nop,nop,TS val 205060160 ecr 216329940], length 0
+00:36:05.997172 IP (tos 0x0, ttl 64, id 54082, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [.], cksum 0x9b4c (correct), ack 12800, win 7848, options [nop,nop,TS val 205060160 ecr 216329940], length 0
+00:36:05.997173 IP (tos 0x0, ttl 64, id 15649, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [.], cksum 0x913c (correct), ack 15548, win 7676, options [nop,nop,TS val 205060160 ecr 216329940], length 0
+00:36:05.997304 IP (tos 0x0, ttl 64, id 50690, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [.], cksum 0x8f38 (correct), ack 15548, win 8192, options [nop,nop,TS val 205060160 ecr 216329940], length 0
+00:36:06.006226 IP (tos 0x0, ttl 255, id 16800, offset 0, flags [none], proto UDP (17), length 70)
+    d-69-91-181-31.dhcp4.washington.edu.55149 > dns2.cac.washington.edu.domain: 40907+ PTR? 81.70.13.31.in-addr.arpa. (42)
+00:36:06.007908 IP (tos 0x0, ttl 49, id 21890, offset 0, flags [DF], proto TCP (6), length 1426)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [.], cksum 0x6de9 (correct), seq 15548:16922, ack 859, win 33, options [nop,nop,TS val 216329965 ecr 205060072], length 1374
+00:36:06.011046 IP (tos 0x0, ttl 59, id 56471, offset 0, flags [none], proto UDP (17), length 287)
+    dns2.cac.washington.edu.domain > d-69-91-181-31.dhcp4.washington.edu.55149: 40907 1/5/5 81.70.13.31.in-addr.arpa. PTR edge-star-shv-06-lax1.facebook.com. (259)
+00:36:06.044008 IP (tos 0x0, ttl 50, id 21891, offset 0, flags [DF], proto TCP (6), length 1426)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [.], cksum 0x8370 (correct), seq 16922:18296, ack 859, win 33, options [nop,nop,TS val 216330001 ecr 205060152], length 1374
+00:36:06.044114 IP (tos 0x0, ttl 64, id 48207, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [.], cksum 0x848b (correct), ack 18296, win 8106, options [nop,nop,TS val 205060206 ecr 216329965], length 0
+00:36:06.045903 IP (tos 0x0, ttl 50, id 21892, offset 0, flags [DF], proto TCP (6), length 1426)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [.], cksum 0xdd93 (correct), seq 18296:19670, ack 859, win 33, options [nop,nop,TS val 216330001 ecr 205060152], length 1374
+00:36:06.046076 IP (tos 0x0, ttl 64, id 60374, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [.], cksum 0x7eb2 (correct), ack 19670, win 8192, options [nop,nop,TS val 205060207 ecr 216330001], length 0
+00:36:06.046407 IP (tos 0x0, ttl 50, id 21893, offset 0, flags [DF], proto TCP (6), length 1426)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [.], cksum 0x5ead (correct), seq 19670:21044, ack 859, win 33, options [nop,nop,TS val 216330001 ecr 205060152], length 1374
+00:36:06.046411 IP (tos 0x0, ttl 50, id 21894, offset 0, flags [DF], proto TCP (6), length 1233)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [P.], cksum 0x5dab (correct), seq 21044:22225, ack 859, win 33, options [nop,nop,TS val 216330001 ecr 205060152], length 1181
+00:36:06.046473 IP (tos 0x0, ttl 64, id 57142, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [.], cksum 0x7557 (correct), ack 22225, win 8032, options [nop,nop,TS val 205060207 ecr 216330001], length 0
+00:36:06.050402 IP (tos 0x0, ttl 64, id 1144, offset 0, flags [DF], proto TCP (6), length 89)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [P.], cksum 0x180d (correct), seq 859:896, ack 22225, win 8192, options [nop,nop,TS val 205060211 ecr 216330001], length 37
+00:36:06.379172 IP (tos 0x0, ttl 50, id 21895, offset 0, flags [DF], proto TCP (6), length 1426)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [.], cksum 0x5d2d (correct), seq 19670:21044, ack 859, win 33, options [nop,nop,TS val 216330330 ecr 205060207], length 1374
+00:36:06.379259 IP (tos 0x0, ttl 64, id 32722, offset 0, flags [DF], proto TCP (6), length 89)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [P.], cksum 0xd66b (correct), seq 896:933, ack 22225, win 8192, options [nop,nop,TS val 205060536 ecr 216330001], length 37
+00:36:06.434559 IP (tos 0x0, ttl 50, id 21896, offset 0, flags [DF], proto TCP (6), length 52)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [.], cksum 0x92c1 (correct), ack 933, win 33, options [nop,nop,TS val 216330392 ecr 205060211], length 0
+00:36:06.557109 IP (tos 0x0, ttl 50, id 21899, offset 0, flags [DF], proto TCP (6), length 397)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [P.], cksum 0x5731 (correct), seq 24973:25318, ack 933, win 33, options [nop,nop,TS val 216330446 ecr 205060211], length 345
+00:36:06.557209 IP (tos 0x0, ttl 64, id 29792, offset 0, flags [DF], proto TCP (6), length 64)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [.], cksum 0xda36 (correct), ack 22225, win 8192, options [nop,nop,TS val 205060713 ecr 216330392,nop,nop,sack 1 {24973:25318}], length 0
+00:36:06.618504 IP (tos 0xc0, ttl 1, id 55809, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:36:06.619182 IP (tos 0xc0, ttl 1, id 55951, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.113: igmp query v2 [max resp time 10] [gaddr 224.0.0.113]
+00:36:07.032635 IP (tos 0x0, ttl 50, id 21900, offset 0, flags [DF], proto TCP (6), length 1426)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [.], cksum 0x9668 (correct), seq 22225:23599, ack 933, win 33, options [nop,nop,TS val 216330876 ecr 205060713], length 1374
+00:36:07.032713 IP (tos 0x0, ttl 64, id 29682, offset 0, flags [DF], proto TCP (6), length 64)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [.], cksum 0xd170 (correct), ack 23599, win 8106, options [nop,nop,TS val 205061187 ecr 216330876,nop,nop,sack 1 {24973:25318}], length 0
+00:36:07.096430 IP (tos 0x0, ttl 50, id 21901, offset 0, flags [DF], proto TCP (6), length 1426)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [.], cksum 0xae74 (correct), seq 23599:24973, ack 933, win 33, options [nop,nop,TS val 216331047 ecr 205061187], length 1374
+00:36:07.096533 IP (tos 0x0, ttl 64, id 1454, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [.], cksum 0x609b (correct), ack 25318, win 8084, options [nop,nop,TS val 205061250 ecr 216331047], length 0
+00:36:07.107605 IP (tos 0x0, ttl 64, id 22951, offset 0, flags [DF], proto TCP (6), length 89)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [P.], cksum 0xa7c6 (correct), seq 933:970, ack 25318, win 8192, options [nop,nop,TS val 205061261 ecr 216331047], length 37
+00:36:07.217056 IP (tos 0x0, ttl 50, id 21902, offset 0, flags [DF], proto TCP (6), length 52)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [.], cksum 0x7f61 (correct), ack 970, win 33, options [nop,nop,TS val 216331172 ecr 205061261], length 0
+00:36:07.217163 IP (tos 0x0, ttl 64, id 29958, offset 0, flags [DF], proto TCP (6), length 89)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [P.], cksum 0x6afb (correct), seq 970:1007, ack 25318, win 8192, options [nop,nop,TS val 205061370 ecr 216331172], length 37
+00:36:07.270525 IP (tos 0x0, ttl 50, id 21903, offset 0, flags [DF], proto TCP (6), length 52)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [.], cksum 0x7e9a (correct), ack 1007, win 33, options [nop,nop,TS val 216331225 ecr 205061370], length 0
+00:36:07.298298 IP (tos 0x0, ttl 50, id 21904, offset 0, flags [DF], proto TCP (6), length 1426)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [.], cksum 0x62ae (correct), seq 25318:26692, ack 1007, win 33, options [nop,nop,TS val 216331251 ecr 205061370], length 1374
+00:36:07.301112 IP (tos 0x0, ttl 50, id 21905, offset 0, flags [DF], proto TCP (6), length 1426)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [.], cksum 0xc6f6 (correct), seq 26692:28066, ack 1007, win 33, options [nop,nop,TS val 216331251 ecr 205061370], length 1374
+00:36:07.301116 IP (tos 0x0, ttl 50, id 21906, offset 0, flags [DF], proto TCP (6), length 1426)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [.], cksum 0xec20 (correct), seq 28066:29440, ack 1007, win 33, options [nop,nop,TS val 216331251 ecr 205061370], length 1374
+00:36:07.301182 IP (tos 0x0, ttl 64, id 30943, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [.], cksum 0x53e9 (correct), ack 28066, win 8106, options [nop,nop,TS val 205061452 ecr 216331251], length 0
+00:36:07.301313 IP (tos 0x0, ttl 64, id 30124, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [.], cksum 0x4e35 (correct), ack 29440, win 8192, options [nop,nop,TS val 205061452 ecr 216331251], length 0
+00:36:07.354528 IP (tos 0x0, ttl 50, id 21907, offset 0, flags [DF], proto TCP (6), length 1426)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [.], cksum 0x69c4 (correct), seq 29440:30814, ack 1007, win 33, options [nop,nop,TS val 216331312 ecr 205061452], length 1374
+00:36:07.355599 IP (tos 0x0, ttl 50, id 21908, offset 0, flags [DF], proto TCP (6), length 1426)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [.], cksum 0xe593 (correct), seq 30814:32188, ack 1007, win 33, options [nop,nop,TS val 216331312 ecr 205061452], length 1374
+00:36:07.355603 IP (tos 0x0, ttl 50, id 21909, offset 0, flags [DF], proto TCP (6), length 200)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [P.], cksum 0x97a0 (correct), seq 32188:32336, ack 1007, win 33, options [nop,nop,TS val 216331312 ecr 205061452], length 148
+00:36:07.355671 IP (tos 0x0, ttl 64, id 5218, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [.], cksum 0x435d (correct), ack 32188, win 8106, options [nop,nop,TS val 205061505 ecr 216331312], length 0
+00:36:07.355672 IP (tos 0x0, ttl 64, id 931, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [.], cksum 0x42d3 (correct), ack 32336, win 8096, options [nop,nop,TS val 205061505 ecr 216331312], length 0
+00:36:07.642440 IP (tos 0xc0, ttl 1, id 63360, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.113: igmp query v2 [max resp time 10] [gaddr 224.0.0.113]
+00:36:08.154700 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has d-128-95-134-162.dhcp4.washington.edu tell d-128-95-134-162.dhcp4.washington.edu, length 42
+00:36:08.155296 IP (tos 0xc0, ttl 1, id 698, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 225.0.0.222: igmp query v2 [max resp time 10] [gaddr 225.0.0.222]
+00:36:09.016447 IP (tos 0x0, ttl 255, id 20474, offset 0, flags [none], proto UDP (17), length 73)
+    d-69-91-181-31.dhcp4.washington.edu.61658 > dns2.cac.washington.edu.domain: 57471+ PTR? 162.134.95.128.in-addr.arpa. (45)
+00:36:09.026967 IP (tos 0x0, ttl 59, id 56472, offset 0, flags [none], proto UDP (17), length 272)
+    dns2.cac.washington.edu.domain > d-69-91-181-31.dhcp4.washington.edu.61658: 57471* 1/3/4 162.134.95.128.in-addr.arpa. PTR D-128-95-134-162.dhcp4.washington.edu. (244)
+00:36:09.027530 IP (tos 0x0, ttl 255, id 21426, offset 0, flags [none], proto UDP (17), length 70)
+    d-69-91-181-31.dhcp4.washington.edu.52421 > dns2.cac.washington.edu.domain: 63303+ PTR? 222.0.0.225.in-addr.arpa. (42)
+00:36:09.178249 IP (tos 0xc0, ttl 1, id 6948, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 225.0.0.222: igmp query v2 [max resp time 10] [gaddr 225.0.0.222]
+00:36:09.323029 IP (tos 0x0, ttl 64, id 32331, offset 0, flags [DF], proto TCP (6), length 89)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [P.], cksum 0xb546 (correct), seq 1007:1044, ack 32336, win 8192, options [nop,nop,TS val 205063466 ecr 216331312], length 37
+00:36:09.491864 IP (tos 0x0, ttl 50, id 21910, offset 0, flags [DF], proto TCP (6), length 52)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [.], cksum 0x5278 (correct), ack 1044, win 33, options [nop,nop,TS val 216333372 ecr 205063466], length 0
+00:36:09.491927 IP (tos 0x0, ttl 64, id 19097, offset 0, flags [DF], proto TCP (6), length 89)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [P.], cksum 0x7f75 (correct), seq 1044:1081, ack 32336, win 8192, options [nop,nop,TS val 205063634 ecr 216333372], length 37
+00:36:09.555934 IP (tos 0x0, ttl 50, id 21911, offset 0, flags [DF], proto TCP (6), length 52)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [.], cksum 0x5125 (correct), ack 1081, win 33, options [nop,nop,TS val 216333506 ecr 205063634], length 0
+00:36:09.581222 IP (tos 0x0, ttl 50, id 21913, offset 0, flags [DF], proto TCP (6), length 89)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [FP.], cksum 0x2454 (correct), seq 32437:32474, ack 1081, win 33, options [nop,nop,TS val 216333533 ecr 205063634], length 37
+00:36:09.581287 IP (tos 0x0, ttl 64, id 25423, offset 0, flags [DF], proto TCP (6), length 64)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [.], cksum 0x611c (correct), ack 32336, win 8192, options [nop,nop,TS val 205063722 ecr 216333506,nop,nop,sack 1 {32437:32474}], length 0
+00:36:10.006116 IP (tos 0x0, ttl 50, id 21914, offset 0, flags [DF], proto TCP (6), length 153)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [P.], cksum 0x5052 (correct), seq 32336:32437, ack 1081, win 33, options [nop,nop,TS val 216333915 ecr 205063722], length 101
+00:36:10.006190 IP (tos 0x0, ttl 64, id 38249, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [.], cksum 0x2d2c (correct), ack 32475, win 8183, options [nop,nop,TS val 205064145 ecr 216333915], length 0
+00:36:10.006343 IP (tos 0x0, ttl 64, id 62604, offset 0, flags [DF], proto TCP (6), length 89)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [P.], cksum 0x07cd (correct), seq 1081:1118, ack 32475, win 8192, options [nop,nop,TS val 205064145 ecr 216333915], length 37
+00:36:10.006994 IP (tos 0x0, ttl 64, id 8941, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54458 > pop3-ch2.sys.comcast.net.pop3s: Flags [F.], cksum 0x2cfd (correct), seq 1118, ack 32475, win 8192, options [nop,nop,TS val 205064145 ecr 216333915], length 0
+00:36:10.074672 IP (tos 0x0, ttl 50, id 0, offset 0, flags [DF], proto TCP (6), length 40)
+    pop3-ch2.sys.comcast.net.pop3s > d-69-91-181-31.dhcp4.washington.edu.54458: Flags [R], cksum 0xb777 (correct), seq 2386116279, win 0, length 0
+00:36:10.103590 IP (tos 0x0, ttl 255, id 2677, offset 0, flags [none], proto UDP (17), length 70)
+    d-69-91-181-31.dhcp4.washington.edu.52421 > dns2.cac.washington.edu.domain: 63303+ PTR? 222.0.0.225.in-addr.arpa. (42)
+00:36:10.118654 IP (tos 0x0, ttl 59, id 56474, offset 0, flags [none], proto UDP (17), length 127)
+    dns2.cac.washington.edu.domain > d-69-91-181-31.dhcp4.washington.edu.52421: 63303 NXDomain 0/1/0 (99)
+00:36:11.738406 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has d-69-91-177-163.dhcp4.washington.edu tell d-69-91-177-163.dhcp4.washington.edu, length 42
+00:36:12.121385 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has ae3--2888.uwar-atg-1.infra.washington.edu (00:00:5e:00:01:05 (oui Unknown)) tell d-69-91-181-31.dhcp4.washington.edu, length 28
+00:36:12.126111 ARP, Ethernet (len 6), IPv4 (len 4), Reply ae3--2888.uwar-atg-1.infra.washington.edu is-at 00:00:5e:00:01:05 (oui Unknown), length 42
+00:36:12.126151 IP (tos 0x0, ttl 255, id 58806, offset 0, flags [none], proto UDP (17), length 72)
+    d-69-91-181-31.dhcp4.washington.edu.52227 > dns2.cac.washington.edu.domain: 7061+ PTR? 163.177.91.69.in-addr.arpa. (44)
+00:36:12.128995 IP (tos 0x0, ttl 59, id 56475, offset 0, flags [none], proto UDP (17), length 270)
+    dns2.cac.washington.edu.domain > d-69-91-181-31.dhcp4.washington.edu.52227: 7061* 1/3/4 163.177.91.69.in-addr.arpa. PTR D-69-91-177-163.dhcp4.washington.edu. (242)
+00:36:15.117480 IP (tos 0xc0, ttl 1, id 45872, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:36:16.551317 IP (tos 0xc0, ttl 1, id 60423, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:36:17.583200 IP (tos 0xc0, ttl 1, id 7201, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:36:19.725936 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has d-69-91-177-203.dhcp4.washington.edu tell d-69-91-177-203.dhcp4.washington.edu, length 42
+00:36:20.135483 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has d-128-95-62-112.dhcp4.washington.edu tell d-128-95-62-112.dhcp4.washington.edu, length 42
+00:36:20.137529 IP (tos 0x0, ttl 255, id 29982, offset 0, flags [none], proto UDP (17), length 72)
+    d-69-91-181-31.dhcp4.washington.edu.52523 > dns2.cac.washington.edu.domain: 49959+ PTR? 112.62.95.128.in-addr.arpa. (44)
+00:36:20.140564 IP (tos 0x0, ttl 59, id 56476, offset 0, flags [none], proto UDP (17), length 270)
+    dns2.cac.washington.edu.domain > d-69-91-181-31.dhcp4.washington.edu.52523: 49959* 1/3/4 112.62.95.128.in-addr.arpa. PTR D-128-95-62-112.dhcp4.washington.edu. (242)
+00:36:21.671826 IP (tos 0xc0, ttl 1, id 53674, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.113: igmp query v2 [max resp time 10] [gaddr 224.0.0.113]
+00:36:21.673075 IP (tos 0xc0, ttl 1, id 53813, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:36:22.184402 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has d-128-95-62-112.dhcp4.washington.edu tell d-128-95-62-112.dhcp4.washington.edu, length 42
+00:36:22.593033 IP (tos 0xc0, ttl 1, id 443, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.113: igmp query v2 [max resp time 10] [gaddr 224.0.0.113]
+00:36:23.617875 IP (tos 0xc0, ttl 1, id 13455, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:36:24.026760 IP (tos 0xc0, ttl 1, id 17800, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:36:25.051263 IP (tos 0xc0, ttl 1, id 29537, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:36:25.052284 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has d-128-208-46-19.dhcp4.washington.edu tell d-128-208-46-19.dhcp4.washington.edu, length 42
+00:36:25.052288 IP (tos 0xc0, ttl 1, id 29650, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:36:25.054387 IP (tos 0xc0, ttl 1, id 29730, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:36:26.894887 IP (tos 0xc0, ttl 1, id 49986, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:36:26.996729 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has d-69-91-177-224.dhcp4.washington.edu tell d-69-91-177-224.dhcp4.washington.edu, length 46
+00:36:27.201950 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has d-69-91-177-200.dhcp4.washington.edu tell d-69-91-177-200.dhcp4.washington.edu, length 42
+00:36:28.150915 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has ae3--2888.uwar-atg-1.infra.washington.edu (00:00:5e:00:01:05 (oui Unknown)) tell d-69-91-181-31.dhcp4.washington.edu, length 28
+00:36:28.153278 ARP, Ethernet (len 6), IPv4 (len 4), Reply ae3--2888.uwar-atg-1.infra.washington.edu is-at 00:00:5e:00:01:05 (oui Unknown), length 42
+00:36:28.153318 IP (tos 0x0, ttl 255, id 37903, offset 0, flags [none], proto UDP (17), length 72)
+    d-69-91-181-31.dhcp4.washington.edu.54178 > dns2.cac.washington.edu.domain: 41054+ PTR? 200.177.91.69.in-addr.arpa. (44)
+00:36:28.155207 IP (tos 0x0, ttl 59, id 56477, offset 0, flags [none], proto UDP (17), length 270)
+    dns2.cac.washington.edu.domain > d-69-91-181-31.dhcp4.washington.edu.54178: 41054* 1/3/4 200.177.91.69.in-addr.arpa. PTR D-69-91-177-200.dhcp4.washington.edu. (242)
+00:36:29.556773 IP (tos 0xc0, ttl 1, id 7606, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:36:29.557760 IP (tos 0xc0, ttl 1, id 7844, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:36:29.761561 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has d-108-179-179-80.dhcp4.washington.edu tell d-108-179-179-80.dhcp4.washington.edu, length 42
+00:36:30.478244 IP (tos 0xc0, ttl 1, id 15489, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:36:31.604847 IP (tos 0xc0, ttl 1, id 24000, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:36:31.605497 IP (tos 0xc0, ttl 1, id 24313, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:36:32.629229 IP (tos 0xc0, ttl 1, id 31475, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:36:33.243313 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has d-69-91-181-171.dhcp4.washington.edu tell d-69-91-181-171.dhcp4.washington.edu, length 42
+00:36:34.161392 IP (tos 0x0, ttl 255, id 30186, offset 0, flags [none], proto UDP (17), length 72)
+    d-69-91-181-31.dhcp4.washington.edu.58405 > dns2.cac.washington.edu.domain: 60092+ PTR? 171.181.91.69.in-addr.arpa. (44)
+00:36:34.164767 IP (tos 0x0, ttl 59, id 56478, offset 0, flags [none], proto UDP (17), length 270)
+    dns2.cac.washington.edu.domain > d-69-91-181-31.dhcp4.washington.edu.58405: 60092* 1/3/4 171.181.91.69.in-addr.arpa. PTR D-69-91-181-171.dhcp4.washington.edu. (242)
+00:36:34.780156 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has d-69-91-181-171.dhcp4.washington.edu tell d-69-91-181-171.dhcp4.washington.edu, length 42
+00:36:36.315150 IP (tos 0xc0, ttl 1, id 62725, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:36:36.315333 IP (tos 0xc0, ttl 1, id 62807, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:36:37.339704 IP (tos 0xc0, ttl 1, id 4877, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:36:38.670766 IP (tos 0xc0, ttl 1, id 14929, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:36:38.671414 IP (tos 0xc0, ttl 1, id 14942, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:36:38.773357 IP (tos 0xc0, ttl 1, id 15135, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:36:38.773364 IP (tos 0xc0, ttl 1, id 15504, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:36:39.490134 IP (tos 0xc0, ttl 1, id 23048, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:36:40.411721 IP (tos 0xc0, ttl 1, id 35153, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:36:40.616479 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has d-173-250-177-113.dhcp4.washington.edu tell d-173-250-177-113.dhcp4.washington.edu, length 46
+00:36:42.664450 IP (tos 0xc0, ttl 1, id 63425, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:36:43.893543 IP (tos 0xc0, ttl 1, id 11995, offset 0, flags [none], proto IGMP (2), length 32, options (RA))
+    ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.113: igmp query v2 [max resp time 10] [gaddr 224.0.0.113]
+00:36:48.102764 IP (tos 0x0, ttl 81, id 57810, offset 0, flags [DF], proto TCP (6), length 533)
+    channel-proxy-shv-04-frc3.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54443: Flags [P.], cksum 0xc150 (correct), seq 481:962, ack 595, win 204, options [nop,nop,TS val 1934582103 ecr 205052152], length 481
+00:36:48.102893 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has ae3--2888.uwar-atg-1.infra.washington.edu (00:00:5e:00:01:05 (oui Unknown)) tell d-69-91-181-31.dhcp4.washington.edu, length 28
+00:36:48.104869 ARP, Ethernet (len 6), IPv4 (len 4), Reply ae3--2888.uwar-atg-1.infra.washington.edu is-at 00:00:5e:00:01:05 (oui Unknown), length 42
+00:36:48.104908 IP (tos 0x0, ttl 64, id 49168, offset 0, flags [DF], proto TCP (6), length 52)
+    d-69-91-181-31.dhcp4.washington.edu.54443 > channel-proxy-shv-04-frc3.facebook.com.https: Flags [.], cksum 0xf6e0 (correct), ack 962, win 8161, options [nop,nop,TS val 205102222 ecr 1934582103], length 0
+00:36:48.108269 IP (tos 0x0, ttl 64, id 28831, offset 0, flags [DF], proto TCP (6), length 647)
+    d-69-91-181-31.dhcp4.washington.edu.54443 > channel-proxy-shv-04-frc3.facebook.com.https: Flags [P.], cksum 0x1d5c (correct), seq 595:1190, ack 962, win 8192, options [nop,nop,TS val 205102227 ecr 1934582103], length 595
+00:36:48.174504 IP (tos 0x0, ttl 81, id 57811, offset 0, flags [DF], proto TCP (6), length 52)
+    channel-proxy-shv-04-frc3.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54443: Flags [.], cksum 0x132e (correct), ack 1190, win 215, options [nop,nop,TS val 1934582204 ecr 205102227], length 0
+
