@@ -1,0 +1,257 @@
+00:40:08.325655 ARP, Request who-has d-128-95-134-27.dhcp4.washington.edu tell d-128-95-134-27.dhcp4.washington.edu, length 42
+00:40:08.529687 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:40:08.667354 IP d-69-91-181-31.dhcp4.washington.edu.54472 > sea09s16-in-f14.1e100.net.https: Flags [P.], seq 134632307:134632360, ack 1064593518, win 8192, options [nop,nop,TS val 205302453 ecr 1369284912], length 53
+00:40:08.667490 IP d-69-91-181-31.dhcp4.washington.edu.54472 > sea09s16-in-f14.1e100.net.https: Flags [F.], seq 53, ack 1, win 8192, options [nop,nop,TS val 205302453 ecr 1369284912], length 0
+00:40:08.667755 IP d-69-91-181-31.dhcp4.washington.edu.54471 > sea09s16-in-f14.1e100.net.https: Flags [P.], seq 2482547401:2482547454, ack 3449728727, win 8192, options [nop,nop,TS val 205302453 ecr 1369284448], length 53
+00:40:08.667803 IP d-69-91-181-31.dhcp4.washington.edu.54471 > sea09s16-in-f14.1e100.net.https: Flags [F.], seq 53, ack 1, win 8192, options [nop,nop,TS val 205302453 ecr 1369284448], length 0
+00:40:08.670019 IP sea09s16-in-f14.1e100.net.https > d-69-91-181-31.dhcp4.washington.edu.54472: Flags [F.], seq 1, ack 54, win 359, options [nop,nop,TS val 1369343554 ecr 205302453], length 0
+00:40:08.670070 IP d-69-91-181-31.dhcp4.washington.edu.54472 > sea09s16-in-f14.1e100.net.https: Flags [.], ack 2, win 8192, options [nop,nop,TS val 205302455 ecr 1369343554], length 0
+00:40:08.671171 IP sea09s16-in-f14.1e100.net.https > d-69-91-181-31.dhcp4.washington.edu.54471: Flags [F.], seq 1, ack 54, win 359, options [nop,nop,TS val 1369343228 ecr 205302453], length 0
+00:40:08.671219 IP d-69-91-181-31.dhcp4.washington.edu.54471 > sea09s16-in-f14.1e100.net.https: Flags [.], ack 2, win 8192, options [nop,nop,TS val 205302456 ecr 1369343228], length 0
+00:40:09.146660 IP channel-proxy-shv-04-frc3.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54443: Flags [P.], seq 3723725661:3723726142, ack 3713319141, win 249, options [nop,nop,TS val 1934783063 ecr 205252834], length 481
+00:40:09.146735 IP d-69-91-181-31.dhcp4.washington.edu.54443 > channel-proxy-shv-04-frc3.facebook.com.https: Flags [.], ack 481, win 8161, options [nop,nop,TS val 205302930 ecr 1934783063], length 0
+00:40:09.152595 IP d-69-91-181-31.dhcp4.washington.edu.54443 > channel-proxy-shv-04-frc3.facebook.com.https: Flags [P.], seq 1:595, ack 481, win 8192, options [nop,nop,TS val 205302935 ecr 1934783063], length 594
+00:40:09.218324 IP channel-proxy-shv-04-frc3.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54443: Flags [.], ack 595, win 261, options [nop,nop,TS val 1934783240 ecr 205302935], length 0
+00:40:09.347624 IP d-69-91-181-31.dhcp4.washington.edu.53014 > dns1.cac.washington.edu.domain: 11073+ PTR? 252.0.0.224.in-addr.arpa. (42)
+00:40:09.368037 IP dns1.cac.washington.edu.domain > d-69-91-181-31.dhcp4.washington.edu.53014: 11073 NXDomain 0/1/0 (99)
+00:40:09.759934 IP channel-proxy-shv-04-frc3.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54442: Flags [P.], seq 1608806762:1608806847, ack 3184845041, win 242, options [nop,nop,TS val 2709109041 ecr 205253510], length 85
+00:40:09.759938 IP channel-proxy-shv-04-frc3.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54442: Flags [P.], seq 85:154, ack 1, win 242, options [nop,nop,TS val 2709109041 ecr 205253510], length 69
+00:40:09.760014 IP d-69-91-181-31.dhcp4.washington.edu.54442 > channel-proxy-shv-04-frc3.facebook.com.https: Flags [.], ack 85, win 8186, options [nop,nop,TS val 205303538 ecr 2709109041], length 0
+00:40:09.760015 IP d-69-91-181-31.dhcp4.washington.edu.54442 > channel-proxy-shv-04-frc3.facebook.com.https: Flags [.], ack 154, win 8182, options [nop,nop,TS val 205303538 ecr 2709109041], length 0
+00:40:09.763941 IP d-69-91-181-31.dhcp4.washington.edu.54442 > channel-proxy-shv-04-frc3.facebook.com.https: Flags [P.], seq 1:1270, ack 154, win 8192, options [nop,nop,TS val 205303541 ecr 2709109041], length 1269
+00:40:09.829312 IP channel-proxy-shv-04-frc3.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54442: Flags [.], ack 1270, win 254, options [nop,nop,TS val 2709109214 ecr 205303541], length 0
+00:40:09.829881 IP channel-proxy-shv-04-frc3.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54442: Flags [.], seq 154:410, ack 1270, win 254, options [nop,nop,TS val 2709109214 ecr 205303541], length 256
+00:40:09.829884 IP channel-proxy-shv-04-frc3.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54442: Flags [P.], seq 410:591, ack 1270, win 254, options [nop,nop,TS val 2709109214 ecr 205303541], length 181
+00:40:09.829974 IP d-69-91-181-31.dhcp4.washington.edu.54442 > channel-proxy-shv-04-frc3.facebook.com.https: Flags [.], ack 591, win 8164, options [nop,nop,TS val 205303605 ecr 2709109214], length 0
+00:40:09.830257 IP channel-proxy-shv-04-frc3.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54442: Flags [P.], seq 591:676, ack 1270, win 254, options [nop,nop,TS val 2709109214 ecr 205303541], length 85
+00:40:09.830305 IP d-69-91-181-31.dhcp4.washington.edu.54442 > channel-proxy-shv-04-frc3.facebook.com.https: Flags [.], ack 676, win 8186, options [nop,nop,TS val 205303605 ecr 2709109214], length 0
+00:40:09.963166 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:40:09.963359 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:40:10.987318 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:40:11.704501 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:40:11.704541 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:40:11.908883 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:40:12.830472 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:40:12.830511 ARP, Request who-has d-128-95-134-27.dhcp4.washington.edu tell d-128-95-134-27.dhcp4.washington.edu, length 42
+00:40:13.240055 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:40:13.240059 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:40:14.264001 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:40:16.312222 ARP, Request who-has d-69-91-131-194.dhcp4.washington.edu tell d-69-91-131-194.dhcp4.washington.edu, length 42
+00:40:16.824587 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:40:16.824757 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:40:17.848714 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:40:18.565674 ARP, Request who-has d-69-91-130-230.dhcp4.washington.edu tell d-69-91-130-230.dhcp4.washington.edu, length 42
+00:40:26.040564 ARP, Request who-has d-69-91-149-162.dhcp4.washington.edu tell d-69-91-149-162.dhcp4.washington.edu, length 42
+00:40:26.389084 ARP, Request who-has ae3--2888.uwar-atg-1.infra.washington.edu (00:00:5e:00:01:05 (oui Unknown)) tell d-69-91-181-31.dhcp4.washington.edu, length 28
+00:40:26.391462 ARP, Reply ae3--2888.uwar-atg-1.infra.washington.edu is-at 00:00:5e:00:01:05 (oui Unknown), length 42
+00:40:26.391503 IP d-69-91-181-31.dhcp4.washington.edu.63721 > dns1.cac.washington.edu.domain: 3758+ PTR? 162.149.91.69.in-addr.arpa. (44)
+00:40:26.395438 IP dns1.cac.washington.edu.domain > d-69-91-181-31.dhcp4.washington.edu.63721: 3758* 1/3/4 PTR D-69-91-149-162.dhcp4.washington.edu. (242)
+00:40:27.679629 ARP, Request who-has d-108-179-178-75.dhcp4.washington.edu tell d-108-179-178-75.dhcp4.washington.edu, length 42
+00:40:27.781937 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:40:27.782163 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:40:28.089293 ARP, Request who-has d-128-208-46-217.dhcp4.washington.edu tell d-128-208-46-217.dhcp4.washington.edu, length 42
+00:40:28.398830 IP d-69-91-181-31.dhcp4.washington.edu.52829 > dns1.cac.washington.edu.domain: 23708+ PTR? 75.178.179.108.in-addr.arpa. (45)
+00:40:28.402182 IP dns1.cac.washington.edu.domain > d-69-91-181-31.dhcp4.washington.edu.52829: 23708* 1/3/4 PTR D-108-179-178-75.dhcp4.washington.edu. (244)
+00:40:28.805963 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:40:29.319285 ARP, Request who-has d-69-91-130-114.dhcp4.washington.edu tell d-69-91-130-114.dhcp4.washington.edu, length 42
+00:40:29.404316 IP d-69-91-181-31.dhcp4.washington.edu.62423 > dns1.cac.washington.edu.domain: 59841+ PTR? 114.130.91.69.in-addr.arpa. (44)
+00:40:29.407606 IP dns1.cac.washington.edu.domain > d-69-91-181-31.dhcp4.washington.edu.62423: 59841* 1/3/4 PTR D-69-91-130-114.dhcp4.washington.edu. (242)
+00:40:29.830026 ARP, Request who-has d-128-95-134-27.dhcp4.washington.edu tell d-128-95-134-27.dhcp4.washington.edu, length 42
+00:40:30.444427 ARP, Request who-has d-128-208-46-106.dhcp4.washington.edu tell d-128-208-46-106.dhcp4.washington.edu, length 42
+00:40:32.799759 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:40:32.799800 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:40:33.823707 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:40:34.130900 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:40:34.130935 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:40:34.492282 IP d-69-91-181-31.dhcp4.washington.edu.54475 > edge-star-shv-02-pao1.facebook.com.https: Flags [P.], seq 1284753812:1284753865, ack 1281803102, win 8192, options [nop,nop,TS val 205328259 ecr 2535246768], length 53
+00:40:34.492413 IP d-69-91-181-31.dhcp4.washington.edu.54475 > edge-star-shv-02-pao1.facebook.com.https: Flags [F.], seq 53, ack 1, win 8192, options [nop,nop,TS val 205328259 ecr 2535246768], length 0
+00:40:34.513970 IP edge-star-shv-02-pao1.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54475: Flags [P.], seq 1:54, ack 53, win 79, options [nop,nop,TS val 2535302243 ecr 205328259], length 53
+00:40:34.513999 IP edge-star-shv-02-pao1.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54475: Flags [F.], seq 54, ack 53, win 79, options [nop,nop,TS val 2535302243 ecr 205328259], length 0
+00:40:34.514066 IP d-69-91-181-31.dhcp4.washington.edu.54475 > edge-star-shv-02-pao1.facebook.com.https: Flags [R], seq 1284753865, win 0, length 0
+00:40:34.514066 IP d-69-91-181-31.dhcp4.washington.edu.54475 > edge-star-shv-02-pao1.facebook.com.https: Flags [R], seq 1284753865, win 0, length 0
+00:40:34.514255 IP edge-star-shv-02-pao1.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54475: Flags [.], ack 54, win 79, options [nop,nop,TS val 2535302244 ecr 205328259], length 0
+00:40:34.514296 IP d-69-91-181-31.dhcp4.washington.edu.54475 > edge-star-shv-02-pao1.facebook.com.https: Flags [R], seq 1284753866, win 0, length 0
+00:40:35.154869 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:40:35.257303 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:40:36.076408 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:40:36.178822 ARP, Request who-has d-128-95-134-27.dhcp4.washington.edu tell d-128-95-134-27.dhcp4.washington.edu, length 42
+00:40:36.896240 ARP, Request who-has d-69-91-177-228.dhcp4.washington.edu tell d-69-91-177-228.dhcp4.washington.edu, length 42
+00:40:37.101906 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:40:37.312376 ARP, Request who-has d-69-91-177-228.dhcp4.washington.edu tell d-69-91-177-228.dhcp4.washington.edu, length 42
+00:40:37.312635 ARP, Request who-has d-69-91-177-224.dhcp4.washington.edu tell d-69-91-177-224.dhcp4.washington.edu, length 46
+00:40:37.417806 IP d-69-91-181-31.dhcp4.washington.edu.56280 > dns1.cac.washington.edu.domain: 4805+ PTR? 228.177.91.69.in-addr.arpa. (44)
+00:40:37.420823 IP dns1.cac.washington.edu.domain > d-69-91-181-31.dhcp4.washington.edu.56280: 4805* 1/3/4 PTR D-69-91-177-228.dhcp4.washington.edu. (242)
+00:40:37.613176 ARP, Request who-has d-69-91-177-228.dhcp4.washington.edu tell d-69-91-177-228.dhcp4.washington.edu, length 42
+00:40:40.480326 ARP, Request who-has d-128-95-62-112.dhcp4.washington.edu tell d-128-95-62-112.dhcp4.washington.edu, length 42
+00:40:41.299378 ARP, Request who-has d-69-91-149-72.dhcp4.washington.edu tell d-69-91-149-72.dhcp4.washington.edu, length 42
+00:40:42.221032 ARP, Request who-has d-108-179-179-116.dhcp4.washington.edu tell d-108-179-179-116.dhcp4.washington.edu, length 46
+00:40:44.985914 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:40:46.009814 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:40:50.311325 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:40:51.028175 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:40:52.053614 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:40:54.816935 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:40:55.431365 ARP, Request who-has d-173-250-177-113.dhcp4.washington.edu tell d-173-250-177-113.dhcp4.washington.edu, length 46
+00:40:55.738545 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:40:56.250517 ARP, Request who-has d-128-208-46-80.dhcp4.washington.edu tell d-128-208-46-80.dhcp4.washington.edu, length 42
+00:40:56.441222 ARP, Request who-has ae3--2888.uwar-atg-1.infra.washington.edu (00:00:5e:00:01:05 (oui Unknown)) tell d-69-91-181-31.dhcp4.washington.edu, length 28
+00:40:56.443216 ARP, Reply ae3--2888.uwar-atg-1.infra.washington.edu is-at 00:00:5e:00:01:05 (oui Unknown), length 42
+00:40:56.443305 IP d-69-91-181-31.dhcp4.washington.edu.49253 > dns1.cac.washington.edu.domain: 34246+ PTR? 80.46.208.128.in-addr.arpa. (44)
+00:40:56.445446 IP dns1.cac.washington.edu.domain > d-69-91-181-31.dhcp4.washington.edu.49253: 34246* 1/3/4 PTR D-128-208-46-80.dhcp4.washington.edu. (242)
+00:40:56.865617 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.113: igmp query v2 [max resp time 10] [gaddr 224.0.0.113]
+00:40:58.196732 ARP, Request who-has d-173-250-177-175.dhcp4.washington.edu tell d-173-250-177-175.dhcp4.washington.edu, length 42
+00:40:58.196778 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:40:58.448245 IP d-69-91-181-31.dhcp4.washington.edu.50182 > dns1.cac.washington.edu.domain: 21745+ PTR? 175.177.250.173.in-addr.arpa. (46)
+00:40:58.450670 IP dns1.cac.washington.edu.domain > d-69-91-181-31.dhcp4.washington.edu.50182: 21745* 1/2/2 PTR D-173-250-177-175.dhcp4.washington.edu. (174)
+00:40:58.913634 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:40:58.914290 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:40:59.323057 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:40:59.323944 IP channel-proxy-shv-04-frc3.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54443: Flags [P.], seq 481:962, ack 595, win 261, options [nop,nop,TS val 1934833242 ecr 205302935], length 481
+00:40:59.324020 IP d-69-91-181-31.dhcp4.washington.edu.54443 > channel-proxy-shv-04-frc3.facebook.com.https: Flags [.], ack 962, win 8161, options [nop,nop,TS val 205353077 ecr 1934833242], length 0
+00:40:59.331504 IP d-69-91-181-31.dhcp4.washington.edu.54443 > channel-proxy-shv-04-frc3.facebook.com.https: Flags [P.], seq 595:1190, ack 962, win 8192, options [nop,nop,TS val 205353084 ecr 1934833242], length 595
+00:40:59.396773 IP channel-proxy-shv-04-frc3.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54443: Flags [.], ack 1190, win 272, options [nop,nop,TS val 1934833417 ecr 205353084], length 0
+00:40:59.527930 ARP, Request who-has d-108-179-178-123.dhcp4.washington.edu tell d-108-179-178-123.dhcp4.washington.edu, length 42
+00:40:59.938277 IP channel-proxy-shv-04-frc3.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54442: Flags [P.], seq 676:761, ack 1270, win 254, options [nop,nop,TS val 2709159215 ecr 205303605], length 85
+00:40:59.938344 IP d-69-91-181-31.dhcp4.washington.edu.54442 > channel-proxy-shv-04-frc3.facebook.com.https: Flags [.], ack 761, win 8186, options [nop,nop,TS val 205353687 ecr 2709159215], length 0
+00:40:59.941141 IP channel-proxy-shv-04-frc3.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54442: Flags [P.], seq 761:830, ack 1270, win 254, options [nop,nop,TS val 2709159215 ecr 205303605], length 69
+00:40:59.941224 IP d-69-91-181-31.dhcp4.washington.edu.54442 > channel-proxy-shv-04-frc3.facebook.com.https: Flags [.], ack 830, win 8187, options [nop,nop,TS val 205353689 ecr 2709159215], length 0
+00:40:59.944553 IP d-69-91-181-31.dhcp4.washington.edu.54442 > channel-proxy-shv-04-frc3.facebook.com.https: Flags [P.], seq 1270:2539, ack 830, win 8192, options [nop,nop,TS val 205353692 ecr 2709159215], length 1269
+00:41:00.012273 IP channel-proxy-shv-04-frc3.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54442: Flags [.], ack 2539, win 265, options [nop,nop,TS val 2709159395 ecr 205353692], length 0
+00:41:00.013246 IP channel-proxy-shv-04-frc3.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54442: Flags [.], seq 830:1086, ack 2539, win 265, options [nop,nop,TS val 2709159396 ecr 205353692], length 256
+00:41:00.013249 IP channel-proxy-shv-04-frc3.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54442: Flags [P.], seq 1086:1267, ack 2539, win 265, options [nop,nop,TS val 2709159396 ecr 205353692], length 181
+00:41:00.013319 IP d-69-91-181-31.dhcp4.washington.edu.54442 > channel-proxy-shv-04-frc3.facebook.com.https: Flags [.], ack 1267, win 8164, options [nop,nop,TS val 205353759 ecr 2709159396], length 0
+00:41:00.013398 IP channel-proxy-shv-04-frc3.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54442: Flags [P.], seq 1267:1352, ack 2539, win 265, options [nop,nop,TS val 2709159396 ecr 205353692], length 85
+00:41:00.013438 IP d-69-91-181-31.dhcp4.washington.edu.54442 > channel-proxy-shv-04-frc3.facebook.com.https: Flags [.], ack 1352, win 8186, options [nop,nop,TS val 205353760 ecr 2709159396], length 0
+00:41:00.244740 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:00.453285 IP d-69-91-181-31.dhcp4.washington.edu.53217 > dns1.cac.washington.edu.domain: 32000+ PTR? 123.178.179.108.in-addr.arpa. (46)
+00:41:00.455721 IP dns1.cac.washington.edu.domain > d-69-91-181-31.dhcp4.washington.edu.53217: 32000* 1/3/4 PTR D-108-179-178-123.dhcp4.washington.edu. (246)
+00:41:01.883041 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:01.985576 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:01.985582 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:02.190360 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:02.395181 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:02.498427 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:02.599936 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:02.705762 IP edge-star-shv-02-pao1.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54463: Flags [P.], seq 4041837236:4041837281, ack 3010970412, win 95, options [nop,nop,TS val 2520616473 ecr 205236948], length 45
+00:41:02.705766 IP edge-star-shv-02-pao1.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54463: Flags [P.], seq 45:76, ack 1, win 95, options [nop,nop,TS val 2520616473 ecr 205236948], length 31
+00:41:02.705840 IP d-69-91-181-31.dhcp4.washington.edu.54463 > edge-star-shv-02-pao1.facebook.com.https: Flags [.], ack 45, win 8189, options [nop,nop,TS val 205356446 ecr 2520616473], length 0
+00:41:02.705841 IP d-69-91-181-31.dhcp4.washington.edu.54463 > edge-star-shv-02-pao1.facebook.com.https: Flags [.], ack 76, win 8187, options [nop,nop,TS val 205356446 ecr 2520616473], length 0
+00:41:02.706058 IP d-69-91-181-31.dhcp4.washington.edu.54463 > edge-star-shv-02-pao1.facebook.com.https: Flags [F.], seq 1, ack 76, win 8192, options [nop,nop,TS val 205356446 ecr 2520616473], length 0
+00:41:02.706755 IP edge-star-shv-02-pao1.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54463: Flags [F.], seq 76, ack 1, win 95, options [nop,nop,TS val 2520616473 ecr 205236948], length 0
+00:41:02.706813 IP d-69-91-181-31.dhcp4.washington.edu.54463 > edge-star-shv-02-pao1.facebook.com.https: Flags [F.], seq 1, ack 77, win 8192, options [nop,nop,TS val 205356446 ecr 2520616473], length 0
+00:41:02.728222 IP edge-star-shv-02-pao1.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54463: Flags [.], ack 2, win 95, options [nop,nop,TS val 2520616589 ecr 205356446], length 0
+00:41:02.728228 IP edge-star-shv-02-pao1.facebook.com.https > d-69-91-181-31.dhcp4.washington.edu.54463: Flags [.], ack 2, win 95, options [nop,nop,TS val 2520616589 ecr 205356446], length 0
+00:41:02.728313 IP d-69-91-181-31.dhcp4.washington.edu.54463 > edge-star-shv-02-pao1.facebook.com.https: Flags [.], ack 77, win 8192, options [nop,nop,TS val 205356468 ecr 2520616589], length 0
+00:41:03.623926 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:04.340714 ARP, Request who-has 169.254.107.221 tell 169.254.107.221, length 42
+00:41:04.637280 IP d-69-91-181-31.dhcp4.washington.edu.mdns > 224.0.0.251.mdns: 0 PTR (QU)? 221.107.254.169.in-addr.arpa. (46)
+00:41:04.637281 IP6 viveks-macbook-pro.local.mdns > ff02::fb.mdns: 0 PTR (QU)? 221.107.254.169.in-addr.arpa. (46)
+00:41:05.262320 ARP, Request who-has d-108-179-179-96.dhcp4.washington.edu tell d-108-179-179-96.dhcp4.washington.edu, length 42
+00:41:05.263103 ARP, Request who-has d-69-91-149-72.dhcp4.washington.edu tell d-69-91-149-72.dhcp4.washington.edu, length 42
+00:41:05.571167 IP live.github.com.https > d-69-91-181-31.dhcp4.washington.edu.54412: Flags [P.], seq 60551052:60551137, ack 1951318615, win 17, options [nop,nop,TS val 943081082 ecr 205299253], length 85
+00:41:05.571174 IP live.github.com.https > d-69-91-181-31.dhcp4.washington.edu.54415: Flags [P.], seq 3511767117:3511767202, ack 494000317, win 17, options [nop,nop,TS val 943081093 ecr 205299272], length 85
+00:41:05.571273 IP d-69-91-181-31.dhcp4.washington.edu.54412 > live.github.com.https: Flags [.], ack 85, win 8186, options [nop,nop,TS val 205359304 ecr 943081082], length 0
+00:41:05.571274 IP d-69-91-181-31.dhcp4.washington.edu.54415 > live.github.com.https: Flags [.], ack 85, win 8186, options [nop,nop,TS val 205359304 ecr 943081093], length 0
+00:41:05.571577 IP live.github.com.https > d-69-91-181-31.dhcp4.washington.edu.54413: Flags [P.], seq 1032750015:1032750100, ack 2378476756, win 17, options [nop,nop,TS val 943081095 ecr 205299278], length 85
+00:41:05.571613 IP d-69-91-181-31.dhcp4.washington.edu.54413 > live.github.com.https: Flags [.], ack 85, win 8186, options [nop,nop,TS val 205359304 ecr 943081095], length 0
+00:41:05.571731 IP live.github.com.https > d-69-91-181-31.dhcp4.washington.edu.54414: Flags [P.], seq 3613589039:3613589124, ack 4091564222, win 17, options [nop,nop,TS val 943081100 ecr 205299302], length 85
+00:41:05.571762 IP d-69-91-181-31.dhcp4.washington.edu.54414 > live.github.com.https: Flags [.], ack 85, win 8186, options [nop,nop,TS val 205359304 ecr 943081100], length 0
+00:41:05.708471 IP d-69-91-181-31.dhcp4.washington.edu.mdns > 224.0.0.251.mdns: 0 PTR (QM)? 221.107.254.169.in-addr.arpa. (46)
+00:41:05.708554 IP6 viveks-macbook-pro.local.mdns > ff02::fb.mdns: 0 PTR (QM)? 221.107.254.169.in-addr.arpa. (46)
+00:41:07.106160 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:07.106321 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:07.925334 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:07.925361 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:08.745969 IP d-69-91-181-31.dhcp4.washington.edu.mdns > 224.0.0.251.mdns: 0 PTR (QM)? 221.107.254.169.in-addr.arpa. (46)
+00:41:08.746156 IP6 viveks-macbook-pro.local.mdns > ff02::fb.mdns: 0 PTR (QM)? 221.107.254.169.in-addr.arpa. (46)
+00:41:08.949166 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:10.280515 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:10.280544 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:10.280919 ARP, Request who-has d-128-208-46-8.dhcp4.washington.edu tell d-128-208-46-8.dhcp4.washington.edu, length 42
+00:41:10.382917 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:10.382921 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:10.462358 IP d-69-91-181-31.dhcp4.washington.edu.62119 > dns1.cac.washington.edu.domain: 13655+ PTR? 251.0.0.224.in-addr.arpa. (42)
+00:41:10.473537 IP dns1.cac.washington.edu.domain > d-69-91-181-31.dhcp4.washington.edu.62119: 13655 NXDomain 0/1/0 (99)
+00:41:10.485299 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:10.587754 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:10.654775 IP d-69-91-181-31.dhcp4.washington.edu.mdns > 224.0.0.251.mdns: 0 PTR (QU)? 2.3.6.4.7.e.e.f.f.f.2.c.5.1.e.3.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. (90)
+00:41:10.654776 IP6 viveks-macbook-pro.local.mdns > ff02::fb.mdns: 0 PTR (QU)? 2.3.6.4.7.e.e.f.f.f.2.c.5.1.e.3.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. (90)
+00:41:10.826827 IP d-69-91-181-31.dhcp4.washington.edu.mdns > 224.0.0.251.mdns: 0*- [0q] 1/0/1 (Cache flush) PTR Viveks-MacBook-Pro.local. (140)
+00:41:10.826828 IP6 viveks-macbook-pro.local.mdns > ff02::fb.mdns: 0*- [0q] 1/0/1 (Cache flush) PTR Viveks-MacBook-Pro.local. (140)
+00:41:10.827915 IP d-69-91-181-31.dhcp4.washington.edu.56468 > dns1.cac.washington.edu.domain: 40053+ PTR? 8.46.208.128.in-addr.arpa. (43)
+00:41:10.829782 IP dns1.cac.washington.edu.domain > d-69-91-181-31.dhcp4.washington.edu.56468: 40053* 1/3/4 PTR D-128-208-46-8.dhcp4.washington.edu. (240)
+00:41:11.099726 ARP, Request who-has d-69-91-181-228.dhcp4.washington.edu tell d-69-91-181-228.dhcp4.washington.edu, length 42
+00:41:11.406895 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.113: igmp query v2 [max resp time 10] [gaddr 224.0.0.113]
+00:41:11.611648 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:11.830653 ARP, Request who-has ae3--2888.uwar-atg-1.infra.washington.edu (00:00:5e:00:01:05 (oui Unknown)) tell d-69-91-181-31.dhcp4.washington.edu, length 28
+00:41:11.832658 ARP, Reply ae3--2888.uwar-atg-1.infra.washington.edu is-at 00:00:5e:00:01:05 (oui Unknown), length 42
+00:41:11.832699 IP d-69-91-181-31.dhcp4.washington.edu.58078 > dns1.cac.washington.edu.domain: 32140+ PTR? 228.181.91.69.in-addr.arpa. (44)
+00:41:11.834295 IP dns1.cac.washington.edu.domain > d-69-91-181-31.dhcp4.washington.edu.58078: 32140* 1/3/4 PTR D-69-91-181-228.dhcp4.washington.edu. (242)
+00:41:12.021355 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:12.021384 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:12.430934 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.113: igmp query v2 [max resp time 10] [gaddr 224.0.0.113]
+00:41:13.045157 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:13.557316 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:13.659642 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:14.581377 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:14.683724 ARP, Request who-has d-173-250-177-212.dhcp4.washington.edu tell d-173-250-177-212.dhcp4.washington.edu, length 42
+00:41:14.838778 IP d-69-91-181-31.dhcp4.washington.edu.64281 > dns1.cac.washington.edu.domain: 40922+ PTR? 212.177.250.173.in-addr.arpa. (46)
+00:41:14.841184 IP dns1.cac.washington.edu.domain > d-69-91-181-31.dhcp4.washington.edu.64281: 40922* 1/2/2 PTR D-173-250-177-212.dhcp4.washington.edu. (174)
+00:41:15.502978 ARP, Request who-has d-128-95-62-232.dhcp4.washington.edu tell d-128-95-62-232.dhcp4.washington.edu, length 42
+00:41:15.842938 IP d-69-91-181-31.dhcp4.washington.edu.53997 > dns1.cac.washington.edu.domain: 58963+ PTR? 232.62.95.128.in-addr.arpa. (44)
+00:41:15.845258 IP dns1.cac.washington.edu.domain > d-69-91-181-31.dhcp4.washington.edu.53997: 58963* 1/3/4 PTR D-128-95-62-232.dhcp4.washington.edu. (242)
+00:41:15.912572 ARP, Request who-has d-128-95-62-232.dhcp4.washington.edu tell d-128-95-62-232.dhcp4.washington.edu, length 42
+00:41:16.014947 ARP, Request who-has d-173-250-177-212.dhcp4.washington.edu tell d-173-250-177-212.dhcp4.washington.edu, length 42
+00:41:16.425103 ARP, Request who-has d-128-95-62-232.dhcp4.washington.edu tell d-128-95-62-232.dhcp4.washington.edu, length 42
+00:41:19.189862 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:20.010287 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:20.521197 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:20.521204 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:21.545166 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:22.569151 ARP, Request who-has d-69-91-130-205.dhcp4.washington.edu tell d-69-91-130-205.dhcp4.washington.edu, length 42
+00:41:23.490746 ARP, Request who-has d-108-179-144-208.dhcp4.washington.edu tell d-108-179-144-208.dhcp4.washington.edu, length 42
+00:41:23.854177 IP d-69-91-181-31.dhcp4.washington.edu.60449 > dns1.cac.washington.edu.domain: 61775+ PTR? 208.144.179.108.in-addr.arpa. (46)
+00:41:23.856310 IP dns1.cac.washington.edu.domain > d-69-91-181-31.dhcp4.washington.edu.60449: 61775* 1/3/4 PTR D-108-179-144-208.dhcp4.washington.edu. (246)
+00:41:24.105221 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:24.105229 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:24.412339 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:25.436381 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:25.641130 ARP, Request who-has d-108-179-179-88.dhcp4.washington.edu tell d-108-179-179-88.dhcp4.washington.edu, length 42
+00:41:25.858848 IP d-69-91-181-31.dhcp4.washington.edu.62624 > dns1.cac.washington.edu.domain: 1906+ PTR? 88.179.179.108.in-addr.arpa. (45)
+00:41:25.863596 IP dns1.cac.washington.edu.domain > d-69-91-181-31.dhcp4.washington.edu.62624: 1906* 1/3/4 PTR D-108-179-179-88.dhcp4.washington.edu. (244)
+00:41:26.768173 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:27.075418 ARP, Request who-has d-108-179-144-247.dhcp4.washington.edu tell d-108-179-144-247.dhcp4.washington.edu, length 42
+00:41:27.484975 ARP, Request who-has d-69-91-177-224.dhcp4.washington.edu tell d-69-91-177-224.dhcp4.washington.edu, length 46
+00:41:27.792225 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:27.792229 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:27.792876 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:28.099431 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:28.816057 ARP, Request who-has d-108-179-179-80.dhcp4.washington.edu tell d-108-179-179-80.dhcp4.washington.edu, length 42
+00:41:29.123408 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:29.840078 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:29.840104 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:29.942612 ARP, Request who-has d-128-95-62-112.dhcp4.washington.edu tell d-128-95-62-112.dhcp4.washington.edu, length 42
+00:41:30.864157 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:32.912185 ARP, Request who-has d-69-91-181-5.dhcp4.washington.edu tell d-69-91-181-5.dhcp4.washington.edu, length 42
+00:41:33.116868 ARP, Request who-has d-108-179-179-116.dhcp4.washington.edu tell d-108-179-179-116.dhcp4.washington.edu, length 46
+00:41:33.873726 ARP, Request who-has ae3--2888.uwar-atg-1.infra.washington.edu (00:00:5e:00:01:05 (oui Unknown)) tell d-69-91-181-31.dhcp4.washington.edu, length 28
+00:41:33.875749 ARP, Reply ae3--2888.uwar-atg-1.infra.washington.edu is-at 00:00:5e:00:01:05 (oui Unknown), length 42
+00:41:33.875781 IP d-69-91-181-31.dhcp4.washington.edu.50200 > dns1.cac.washington.edu.domain: 61368+ PTR? 5.181.91.69.in-addr.arpa. (42)
+00:41:33.878469 IP dns1.cac.washington.edu.domain > d-69-91-181-31.dhcp4.washington.edu.50200: 61368* 1/3/4 PTR D-69-91-181-5.dhcp4.washington.edu. (238)
+00:41:34.652879 ARP, Request who-has d-173-250-177-248.dhcp4.washington.edu tell d-173-250-177-248.dhcp4.washington.edu, length 42
+00:41:36.394137 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:36.803972 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:36.906422 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:37.008813 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:37.930416 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:38.647189 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:38.749620 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:39.056766 ARP, Request who-has d-128-208-46-106.dhcp4.washington.edu tell d-128-208-46-106.dhcp4.washington.edu, length 42
+00:41:39.773576 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:42.743196 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:42.743430 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:42.947970 ARP, Request who-has d-69-91-181-68.dhcp4.washington.edu tell d-69-91-181-68.dhcp4.washington.edu, length 42
+00:41:43.766925 IP ae3--2888.uwar-atg-1.infra.washington.edu > 224.0.0.252: igmp query v2 [max resp time 10] [gaddr 224.0.0.252]
+00:41:43.889015 IP d-69-91-181-31.dhcp4.washington.edu.58261 > dns1.cac.washington.edu.domain: 37224+ PTR? 68.181.91.69.in-addr.arpa. (43)
+00:41:43.891353 IP dns1.cac.washington.edu.domain > d-69-91-181-31.dhcp4.washington.edu.58261: 37224* 1/3/4 PTR D-69-91-181-68.dhcp4.washington.edu. (240)
+
